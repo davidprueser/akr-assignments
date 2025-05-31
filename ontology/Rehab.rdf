@@ -1,0 +1,512 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises/"
+     xml:base="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:rehab-exercises="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises">
+        <rdfs:comment xml:lang="en">Exercises linking to possible Symptoms (from SYMP) and diseases (from DOID) that can be used for rehabilitation or physiotherapie</rdfs:comment>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#source -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#source"/>
+    
+
+
+    <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#wikientry -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#wikientry"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#has_difficulty -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#has_difficulty">
+        <rdfs:comment xml:lang="en">Exercise has difficulty Difficulty</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#has_symptom -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#has_symptom">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#is_symptom_of"/>
+        <rdfs:comment xml:lang="en">Disease has Symptom</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#is_relieved_by -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#is_relieved_by">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#relieves"/>
+        <rdfs:comment xml:lang="en">Symptom is relieved by Exercise</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#is_suited_for -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#is_suited_for">
+        <rdfs:comment xml:lang="en">Exercise is suited for Age</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#is_symptom_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#is_symptom_of">
+        <rdfs:comment xml:lang="en">Symptom is symptom of Disease</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#is_targeted_by -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#is_targeted_by">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#targets"/>
+        <rdfs:comment xml:lang="en">MuscleGroup is targeted by Exercise</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#relieves -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#relieves">
+        <rdfs:comment xml:lang="en">Exercise relieves Symptom</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#targets -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#targets">
+        <rdfs:comment xml:lang="en">Exercise targets MuscleGroup</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#related_to -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#related_to"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#AbdominalPain -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#AbdominalPain">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Pain"/>
+        <rdfs:label xml:lang="en">Abdominal Pain</rdfs:label>
+        <rdfs:seeAlso xml:lang="en">http://purl.obolibrary.org/obo/SYMP_0000457</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Age"/>
+        <rdfs:comment xml:lang="en">People between 18-64 years old</rdfs:comment>
+        <rdfs:label xml:lang="en">Adult</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Age -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Age">
+        <rehab-exercises:wikientry xml:lang="en">https://www.wikidata.org/wiki/Q185836</rehab-exercises:wikientry>
+        <rdfs:comment xml:lang="en">Age Group for which the Exercise is Recommended for</rdfs:comment>
+        <rdfs:label xml:lang="en">Age Group</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Arm -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Arm">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Muscle"/>
+        <rdfs:comment xml:lang="en">All Arm Related Muscles</rdfs:comment>
+        <rdfs:label xml:lang="en">Arm</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Back -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Back">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Muscle"/>
+        <rdfs:comment xml:lang="en">All Back related Muscles</rdfs:comment>
+        <rdfs:label xml:lang="en">Back</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Biceps -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Biceps">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Arm"/>
+        <rdfs:label xml:lang="en">Biceps</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Calve -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Calve">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Leg"/>
+        <rdfs:label xml:lang="en">Calves</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Chest -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Chest">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Muscle"/>
+        <rdfs:comment xml:lang="en">All Chest related Muscles</rdfs:comment>
+        <rdfs:label xml:lang="en">Chest</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Child -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Child">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Age"/>
+        <rdfs:comment xml:lang="en">People between 0 - 17 years old</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Difficulty -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Difficulty">
+        <rehab-exercises:wikientry xml:lang="en">https://www.wikidata.org/wiki/Q11659512</rehab-exercises:wikientry>
+        <rdfs:comment xml:lang="en">Difficulty Levels of Different Exercises</rdfs:comment>
+        <rdfs:label xml:lang="en">Difficulty</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Disease -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Disease">
+        <rehab-exercises:source rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#doid"/>
+        <rehab-exercises:wikientry>https://www.wikidata.org/entity/Q12136</rehab-exercises:wikientry>
+        <rdfs:comment xml:lang="en">Diseases contained in this Ontology</rdfs:comment>
+        <rdfs:label xml:lang="en">Disease</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Easy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Easy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Difficulty"/>
+        <rdfs:label xml:lang="en">Easy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#ElbowPain -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#ElbowPain">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#JointPain"/>
+        <rdfs:label xml:lang="en">Elbow Pain</rdfs:label>
+        <rdfs:seeAlso xml:lang="en">http://purl.obolibrary.org/obo/SYMP_0000441</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Exercise -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Exercise">
+        <rehab-exercises:wikientry>https://www.wikidata.org/wiki/Q29051769</rehab-exercises:wikientry>
+        <rdfs:comment xml:lang="en">Contains Rehabilitaion and Physical Therapie Exercises</rdfs:comment>
+        <rdfs:label xml:lang="en">Exercise</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Forearm -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Forearm">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Arm"/>
+        <rdfs:label xml:lang="en">Forearm</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Hamstring -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Hamstring">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Leg"/>
+        <rdfs:comment xml:lang="en">Upper, back part of the leg</rdfs:comment>
+        <rdfs:label xml:lang="en">Hamstrings</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Hard -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Hard">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Difficulty"/>
+        <rdfs:label xml:lang="en">Hard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#HeadPain -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#HeadPain">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Pain"/>
+        <rdfs:comment xml:lang="en">All kinds of Head Pain / Headache</rdfs:comment>
+        <rdfs:label xml:lang="en">Head Pain</rdfs:label>
+        <rdfs:seeAlso xml:lang="en">http://purl.obolibrary.org/obo/SYMP_0000504</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#HipPain -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#HipPain">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#JointPain"/>
+        <rdfs:label xml:lang="en">Hip Pain</rdfs:label>
+        <rdfs:seeAlso xml:lang="en">http://purl.obolibrary.org/obo/SYMP_0000632</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Intermediate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Intermediate">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Difficulty"/>
+        <rdfs:label xml:lang="en">Intermediate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#JointPain -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#JointPain">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Pain"/>
+        <rdfs:label xml:lang="en">Joint Pain</rdfs:label>
+        <rdfs:seeAlso xml:lang="en">http://purl.obolibrary.org/obo/SYMP_0000064</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#KneePain -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#KneePain">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#JointPain"/>
+        <rdfs:label xml:lang="en">Knee Pain</rdfs:label>
+        <rdfs:seeAlso xml:lang="en">http://purl.obolibrary.org/obo/SYMP_0000442</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Leg -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Leg">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Muscle"/>
+        <rdfs:comment xml:lang="en">All Leg related Muscles</rdfs:comment>
+        <rdfs:label xml:lang="en">Leg</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Muscle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Muscle">
+        <rehab-exercises:wikientry xml:lang="en">https://www.wikidata.org/wiki/Q7365</rehab-exercises:wikientry>
+        <rdfs:comment xml:lang="en">Different Muscle Groups that could be targeted by certain exercises</rdfs:comment>
+        <rdfs:label xml:lang="en">Muscle Group</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#MusclePain -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#MusclePain">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Pain"/>
+        <rdfs:comment xml:lang="en">Muscles causing pain</rdfs:comment>
+        <rdfs:label xml:lang="en">Muscle Pain</rdfs:label>
+        <rdfs:seeAlso xml:lang="en">http://purl.obolibrary.org/obo/SYMP_0019161</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#NeckPain -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#NeckPain">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Pain"/>
+        <rdfs:label xml:lang="en">Neck Pain</rdfs:label>
+        <rdfs:seeAlso xml:lang="en">http://purl.obolibrary.org/obo/SYMP_0000829</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Pain -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Pain">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#SensationPerception"/>
+        <rdfs:comment xml:lang="en">Different Kind of Pains within the Sensation Perception</rdfs:comment>
+        <rdfs:label xml:lang="en">Pain</rdfs:label>
+        <rdfs:seeAlso xml:lang="en">http://purl.obolibrary.org/obo/SYMP_0000099</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Quadriceps -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Quadriceps">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Leg"/>
+        <rdfs:comment xml:lang="en">Upper, front part of the leg</rdfs:comment>
+        <rdfs:label xml:lang="en">Quadriceps</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Senior -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Senior">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Age"/>
+        <rdfs:comment xml:lang="en">People aged 65 or more</rdfs:comment>
+        <rdfs:label xml:lang="en">Senior</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#SensationPerception -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#SensationPerception">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Symptoms"/>
+        <rdfs:comment xml:lang="en">Symptoms that have to do with Sensation Perception</rdfs:comment>
+        <rdfs:label xml:lang="en">SensationPerception</rdfs:label>
+        <rdfs:seeAlso xml:lang="en">http://purl.obolibrary.org/obo/SYMP_0000892</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Shoulder -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Shoulder">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Muscle"/>
+        <rdfs:comment xml:lang="en">All Shoulder related Muscles</rdfs:comment>
+        <rdfs:label xml:lang="en">Shoulder</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#ShoulderPain -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#ShoulderPain">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#JointPain"/>
+        <rdfs:label xml:lang="en">Shoulder Pain</rdfs:label>
+        <rdfs:seeAlso xml:lang="en">http://purl.obolibrary.org/obo/SYMP_0000443</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Symptoms -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Symptoms">
+        <rehab-exercises:source rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#symp"/>
+        <rehab-exercises:wikientry>https://www.wikidata.org/wiki/Q169872</rehab-exercises:wikientry>
+        <rdfs:comment xml:lang="en">Symptoms contained in this Ontology</rdfs:comment>
+        <rdfs:label xml:lang="en">Symptoms</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Triceps -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Triceps">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Arm"/>
+        <rdfs:label xml:lang="en">Triceps</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#doid -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#doid">
+        <rehab-exercises:related_to xml:lang="en">http://purl.obolibrary.org/obo/doid.owl</rehab-exercises:related_to>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#symp -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#symp">
+        <rehab-exercises:related_to xml:lang="en">http://purl.obolibrary.org/obo/symp.owl</rehab-exercises:related_to>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+

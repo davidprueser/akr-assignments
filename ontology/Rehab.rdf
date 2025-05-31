@@ -248,6 +248,86 @@
         <rdfs:label xml:lang="en">Disease</rdfs:label>
     </owl:Class>
     
+    
+    
+    <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Arthritis -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Arthritis">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#BoneDisease"/>
+        <rdfs:label xml:lang="en">Arthritis</rdfs:label>
+        <rdfs:seeAlso xml:lang="en">http://purl.obolibrary.org/obo/DOID_848</rdfs:seeAlso>
+    </owl:Class>
+    
+    
+    
+    <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#BoneDisease -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#BoneDisease">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Disease"/>
+        <rdfs:label xml:lang="en">Bone Disease</rdfs:label>
+        <rdfs:seeAlso xml:lang="en">http://purl.obolibrary.org/obo/DOID_0080001</rdfs:seeAlso>
+    </owl:Class>
+    
+    
+    
+    <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Fibromyalgia -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Fibromyalgia">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Syndrome"/>
+        <rdfs:label xml:lang="en">Fibromyalgia</rdfs:label>
+        <rdfs:seeAlso xml:lang="en">http://purl.obolibrary.org/obo/DOID_631</rdfs:seeAlso>
+    </owl:Class>
+    
+    
+    
+    <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Syndrome -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Syndrome">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Disease"/>
+        <rdfs:label xml:lang="en">Syndrome</rdfs:label>
+        <rdfs:seeAlso xml:lang="en">http://purl.obolibrary.org/obo/DOID_225</rdfs:seeAlso>
+    </owl:Class>
+
+    
+    
+    <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#MuscularDisease -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#MuscularDisease">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#BrainDisease"/>
+        <rdfs:label xml:lang="en">Muscular Disease</rdfs:label>
+        <rdfs:seeAlso xml:lang="en">http://purl.obolibrary.org/obo/DOID_0080000</rdfs:seeAlso>
+    </owl:Class>
+
+    
+    
+    <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Migraine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Migraine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Disease"/>
+        <rdfs:label xml:lang="en">Migraine</rdfs:label>
+        <rdfs:seeAlso xml:lang="en">http://purl.obolibrary.org/obo/DOID_6364</rdfs:seeAlso>
+    </owl:Class>
+
+    
+    
+    <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#BrainDisease -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#BrainDisease">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Disease"/>
+        <rdfs:label xml:lang="en">Brain Disease</rdfs:label>
+        <rdfs:seeAlso xml:lang="en">http://purl.obolibrary.org/obo/DOID_936</rdfs:seeAlso>
+    </owl:Class>
+    
+    
+    
+    <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Injury -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Injury">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Disease"/>
+        <rdfs:label xml:lang="en">Injury</rdfs:label>
+        <rdfs:seeAlso xml:lang="en">http://purl.obolibrary.org/obo/MONDO_0021178</rdfs:seeAlso>
+    </owl:Class>
+
 
 
     <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Easy -->
@@ -477,6 +557,9 @@
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Arm"/>
         <rdfs:label xml:lang="en">Triceps</rdfs:label>
     </owl:Class>
+    
+    
+    
     
 
 

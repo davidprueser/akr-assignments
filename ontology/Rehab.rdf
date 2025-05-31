@@ -293,7 +293,7 @@
     <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#MuscularDisease -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#MuscularDisease">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#BrainDisease"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Disease"/>
         <rdfs:label xml:lang="en">Muscular Disease</rdfs:label>
         <rdfs:seeAlso xml:lang="en">http://purl.obolibrary.org/obo/DOID_0080000</rdfs:seeAlso>
     </owl:Class>
@@ -303,7 +303,7 @@
     <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Migraine -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Migraine">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Disease"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#BrainDisease"/>
         <rdfs:label xml:lang="en">Migraine</rdfs:label>
         <rdfs:seeAlso xml:lang="en">http://purl.obolibrary.org/obo/DOID_6364</rdfs:seeAlso>
     </owl:Class>

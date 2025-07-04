@@ -53,7 +53,12 @@ class RehabOntologyCrawler:
             []
         )  # Renamed from _property_defs
 
-    def run(self, urls: list[str], destination: str | None = None):
+    def run(
+        self,
+        urls: list[str],
+        category_urls: list[str],
+        destination: str | None = None,
+    ):
         """
         Orchestrate the full workflow:
         1) Load the ontology,
@@ -74,6 +79,17 @@ class RehabOntologyCrawler:
             self.fetch_page(url)
             texts = self.extract_texts()
             self.add_categories(texts, self.exercise_class)
+
+        # Step 2.5: Add categories from specific URLs
+        for category_url in category_urls:
+            print(f"Scraping exercises in {url}...")
+            self.fetch_page(category_url)
+            self.base_url = category_url  # Changed: store base for relative links
+            exercises = self.extract_exercise_links()
+            # Determine category class from URL or previous category mapping
+            category_name = url.rsplit("/", 1)[-1].replace("+", " ")
+            category_class = self.REHAB[category_name.replace(" ", "_")]
+            self.add_exercises(exercises, category_class)
 
         # Step 3: Add Strengthening workaround
         self.add_strengthening(self.exercise_class)
@@ -134,6 +150,40 @@ class RehabOntologyCrawler:
         return {
             span.get_text(strip=True) for span in spans if span.get_text(strip=True)
         }
+
+    ##### Scraping Exercise Methods #####
+
+    # Changed: New method to extract exercise links and titles from a category page
+    def extract_exercise_links(self) -> list[tuple[str, str]]:
+        """
+        Finds all exercise links on a category page.
+        Returns a list of tuples (exercise_url, exercise_name).
+        """
+        if self._soup is None:
+            raise RuntimeError("Page not fetched. Call fetch_page() first.")
+        links = []
+        for a in self._soup.select("a[data-no-animation]"):
+            href = a.get("href")
+            name = a.get_text(strip=True)
+            if href and name:
+                full_url = requests.compat.urljoin(self.base_url, href)
+                links.append((full_url, name))
+        return links
+
+    # Changed: New method to add exercise individuals to the ontology
+    def add_exercises(self, exercises: list[tuple[str, str]], category_class: URIRef):
+        """
+        Adds exercise individuals under the given category class.
+        """
+        for url, name in exercises:
+            # create a URI for the exercise individual
+            indiv_uri = self.REHAB[name.replace(" ", "_")]
+            # add type and class membership
+            self.graph.add((indiv_uri, RDF.type, self.REHAB.Exercise))
+            self.graph.add((indiv_uri, RDF.type, category_class))
+            self.graph.add((indiv_uri, RDFS.label, Literal(name)))
+            # optionally store the source URL
+            self.graph.add((indiv_uri, self.REHAB.sourceUrl, Literal(url)))
 
     ##### Ontology Update Methods #####
 
@@ -269,5 +319,19 @@ if __name__ == "__main__":
     crawler = RehabOntologyCrawler(
         base_ontology_path="Rehab.rdf",
     )
-    urls_to_scrape = ["https://www.rehabhero.ca/back", "https://www.rehabhero.ca/neck"]
-    crawler.run(urls_to_scrape, destination="Scraped_Rehab_Final.rdf")
+    urls_to_scrape = [
+        "https://www.rehabhero.ca/back",
+    ]
+
+    # "https://www.rehabhero.ca/neck", https://www.rehabhero.ca/low-back,  https://www.rehabhero.ca/shoulder, https://www.rehabhero.ca/hip, 
+    # https://www.rehabhero.ca/elbow, https://www.rehabhero.ca/knee, https://www.rehabhero.ca/wrist, https://www.rehabhero.ca/ankle
+    # https://www.rehabhero.ca/hand, https://www.rehabhero.ca/foot, https://www.rehabhero.ca/tmj 
+    category_urls = [
+        "https://www.rehabhero.ca/exercise/category/Thoracic+Flexibility",
+        "https://www.rehabhero.ca/exercise/category/Thoracic+Strengthening",
+        "https://www.rehabhero.ca/exercise/category/Thoracic+Mobility",
+        "https://www.rehabhero.ca/exercise/category/Thoracic+Massage",
+        "https://www.rehabhero.ca/exercise/category/Thoracic+Stability",
+    ]
+
+    crawler.run(urls_to_scrape, category_urls, destination="Scraped_Rehab_Final.rdf")

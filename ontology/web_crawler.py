@@ -53,7 +53,8 @@ class RehabOntologyCrawler:
         1) Load the ontology,
         2) For each URL: scrape and add categories,
         3) Add 'Strengthening' workaround,
-        4) Save the updated graph.
+        4) Restore property definitions,
+        5) Save the updated graph.
 
         :param urls: List of page URLs to scrape
         :param destination: Optional output filename for serialization
@@ -199,8 +200,10 @@ class RehabOntologyCrawler:
 
     def _post_process(self, rdf_str: str) -> str:
         """
-        Apply regex replacements for Object, Datatype, Annotation properties.
+        Applies all property tag replacements to the RDF/XML string,
+        then inserts blank lines between top-level elements for readability.
         """
+        # Convert Description to proper owl tags
         rdf_str = self._replace_property_tag(
             rdf_str, OWL.ObjectProperty.toPython(), "owl:ObjectProperty"
         )
@@ -210,6 +213,9 @@ class RehabOntologyCrawler:
         rdf_str = self._replace_property_tag(
             rdf_str, OWL.AnnotationProperty.toPython(), "owl:AnnotationProperty"
         )
+        # Insert blank lines after closing tags of top-level elements
+        rdf_str = re.sub(r"(</owl:[^>]+>)", r"\1\n", rdf_str)
+        rdf_str = re.sub(r"(</rdf:Description>)", r"\1\n", rdf_str)
         return rdf_str
 
     ##### Serialization #####

@@ -33,19 +33,25 @@ class RehabOntologyCrawler:
             ".rdf", "_updated.rdf"
         )
         self.REHAB = Namespace(namespace_uri)
+        # Derive default namespace URI for XML serialization
+        self.default_ns = namespace_uri.rstrip("#")
+        if not self.default_ns.endswith("/"):
+            self.default_ns += "/"
+
         self.graph = Graph()
+        # bind namespaces
         self.graph.bind("rehab", self.REHAB)
         self.graph.bind("owl", OWL)
         self.graph.bind("rdfs", RDFS)
+        # bind default namespace prefix to empty string
+        self.graph.namespace_manager.bind("", Namespace(self.default_ns))
+
         self.exercise_class = self.REHAB.Exercise
         self._soup = None
-
-        # Will hold all property-definition triples to re-add later
-        self._property_defs: list[tuple[URIRef, URIRef, URIRef]] = []
-
-        self.graph.bind("rehab", self.REHAB)
-        self.exercise_class = self.REHAB.Exercise
-        self._soup = None
+        # Will hold all definition triples to re-add later
+        self._defs: list[tuple[URIRef, URIRef, URIRef]] = (
+            []
+        )  # Renamed from _property_defs
 
     def run(self, urls: list[str], destination: str | None = None):
         """
@@ -91,6 +97,9 @@ class RehabOntologyCrawler:
         self._capture_properties(OWL.DatatypeProperty)
         self._capture_properties(OWL.AnnotationProperty)
 
+        # Capture NamedIndividual definitions (e.g., symp, doid)
+        self._capture_named_individuals()
+
         # Load incremental updates if present
         try:
             with open(self.work_path, "rb"):
@@ -118,15 +127,13 @@ class RehabOntologyCrawler:
         """
 
         if self._soup is None:
-            raise RuntimeError("Page content not fetched. Call fetch_page() first.")
-        category_spans = self._soup.select("span.sqsrte-text-color--accent")
-        black_spans = self._soup.select("span.sqsrte-text-color--black")
-        texts = {
-            span.get_text(strip=True)
-            for span in category_spans + black_spans
-            if span.get_text(strip=True)
+            raise RuntimeError("Page not fetched. Call fetch_page() first.")
+        spans = self._soup.select(
+            "span.sqsrte-text-color--accent, span.sqsrte-text-color--black"
+        )
+        return {
+            span.get_text(strip=True) for span in spans if span.get_text(strip=True)
         }
-        return texts
 
     ##### Ontology Update Methods #####
 
@@ -162,33 +169,40 @@ class RehabOntologyCrawler:
     def _capture_properties(self, prop_type):
         """
         Helper to capture all triples for a given property type.
+
+        :param prop_type: The RDF type of the property to capture (e.g., OWL.ObjectProperty, OWL.DatatypeProperty).
         """
         for prop in self.graph.subjects(RDF.type, prop_type):
+            valid_preds = {RDF.type, RDFS.domain, RDFS.range, RDFS.label, RDFS.comment}
+            if prop_type == OWL.ObjectProperty:
+                valid_preds.add(OWL.inverseOf)
             for pred, obj in self.graph.predicate_objects(prop):
-                if pred in {
-                    RDF.type,
-                    RDFS.domain,
-                    RDFS.range,
-                    RDFS.label,
-                    RDFS.comment,
-                    OWL.inverseOf,
-                }:
-                    self._property_defs.append((prop, pred, obj))
+                if pred in valid_preds:
+                    self._defs.append((prop, pred, obj))
+
+    def _capture_named_individuals(self):
+        """
+        Helper to capture definition triples for all NamedIndividuals and their related_to links.
+        """
+        for indiv in self.graph.subjects(RDF.type, OWL.NamedIndividual):
+            # capture type triple
+            self._defs.append((indiv, RDF.type, OWL.NamedIndividual))
+            # only keep related_to properties
+            for pred, obj in self.graph.predicate_objects(indiv):
+                if pred == self.REHAB.related_to:
+                    self._defs.append((indiv, pred, obj))
 
     def add_property_definitions(self):
         """
         Restores all captured ObjectProperty and DatatypeProperty definition triples.
         """
-        for s, p, o in self._property_defs:
+        for s, p, o in self._defs:
             self.graph.add((s, p, o))
 
-    def _replace_property_tag(self, rdf_str: str, uri: str, tag: str) -> str:
-        """
-        Helper to replace <rdf:Description> for a given property URI with <owl:*> tags.
-        """
+    def _replace_property_tag(self, rdf_str: str, type_uri: str, tag: str) -> str:
         pattern = (
             rf'<rdf:Description rdf:about="(?P<about>[^"]+)">\s*'
-            rf'<rdf:type rdf:resource="{re.escape(uri)}"\s*/>(?P<inner>.*?)'
+            rf'<rdf:type rdf:resource="{re.escape(type_uri)}"\s*/>(?P<inner>.*?)'
             rf"</rdf:Description>"
         )
         return re.sub(
@@ -198,12 +212,27 @@ class RehabOntologyCrawler:
             flags=re.DOTALL,
         )
 
+    def _add_namespace_declaration(self, rdf_str: str) -> str:
+        """
+        Adds the default namespace declaration to the RDF/XML string if not present.
+
+        :param rdf_str: The RDF/XML string to process.
+        :return: The RDF/XML string with the namespace declaration added.
+        """
+        return re.sub(
+            r"<rdf:RDF",
+            f'<rdf:RDF xml:base="{self.default_ns.rstrip("/")}" xmlns="{self.default_ns}"',
+            rdf_str,
+            count=1,
+        )
+
     def _post_process(self, rdf_str: str) -> str:
         """
         Applies all property tag replacements to the RDF/XML string,
         then inserts blank lines between top-level elements for readability.
         """
         # Convert Description to proper owl tags
+        rdf_str = self._add_namespace_declaration(rdf_str)
         rdf_str = self._replace_property_tag(
             rdf_str, OWL.ObjectProperty.toPython(), "owl:ObjectProperty"
         )

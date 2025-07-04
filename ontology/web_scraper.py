@@ -41,5 +41,5 @@ g.add((strengthening_uri, RDF.type, OWL.Class))
 g.add((strengthening_uri, RDFS.subClassOf, exercise_class))
 g.add((strengthening_uri, RDFS.label, Literal("Strengthening")))
 
-g.serialize(destination="Scraped_Rehab.rdf", format="xml")
+g.serialize(destination="Scraped_Rehab_2.rdf", format="xml")
 print("Updated ontology saved as 'Scraped_Rehab.rdf'")

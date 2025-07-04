@@ -91,6 +91,7 @@ class RehabOntologyCrawler:
             seg = category_url.rsplit("/", 1)[-1]  # z.B. "Thoracic+Flexibility"
             kind = seg.split("+")[-1]  # z.B. "Flexibility"
 
+            # Map kind to class name 
             if kind == "Flexibility":
                 cls_name = "Stretches"
             else:

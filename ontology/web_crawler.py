@@ -8,6 +8,7 @@ Date: 04.07.2025
 import requests
 from bs4 import BeautifulSoup
 from rdflib import Graph, Namespace, RDF, RDFS, URIRef, Literal, OWL
+import re
 
 
 class RehabOntologyCrawler:
@@ -39,6 +40,9 @@ class RehabOntologyCrawler:
         self.exercise_class = self.REHAB.Exercise
         self._soup = None
 
+        # Will hold all property-definition triples to re-add later
+        self._property_defs: list[tuple[URIRef, URIRef, URIRef]] = []
+
         self.graph.bind("rehab", self.REHAB)
         self.exercise_class = self.REHAB.Exercise
         self._soup = None
@@ -67,22 +71,33 @@ class RehabOntologyCrawler:
         # Step 3: Add Strengthening workaround
         self.add_strengthening(self.exercise_class)
 
-        # Step 4: Serialize the updated graph
+        # Step 4: Restore property definitions
+        self.add_property_definitions()
+
+        # Step 5: Serialize the updated graph
         self.serialize(destination)
 
     def load_ontology(self):
         """
-        Load the original ontology and then, if available,
-        the current update file to maintain incremental additions.
+        Load the original ontology and capture all property definitions
+        from ObjectProperty, DatatypeProperty, and AnnotationProperty.
         """
-        # Load the original ontology
+        # Load base ontology
         self.graph.parse(self.base_path, format="xml")
-        # Load previous updates if the file exists
+
+        # Capture all property definitions
+        self._capture_properties(OWL.ObjectProperty)
+        self._capture_properties(OWL.DatatypeProperty)
+        self._capture_properties(OWL.AnnotationProperty)
+
+        # Load incremental updates if present
         try:
             with open(self.work_path, "rb"):
                 self.graph.parse(self.work_path, format="xml")
         except FileNotFoundError:
             pass
+
+    ##### Web Scraping Methods #####
 
     def fetch_page(self, url: str):
         """
@@ -112,6 +127,8 @@ class RehabOntologyCrawler:
         }
         return texts
 
+    ##### Ontology Update Methods #####
+
     def add_categories(self, texts: set[str], parent_class: URIRef):
         """
         Adds categories as subclasses of the specified parent class in the ontology.
@@ -139,15 +156,77 @@ class RehabOntologyCrawler:
             self.graph.add((uri, RDFS.subClassOf, parent_class))
             self.graph.add((uri, RDFS.label, Literal("Strengthening")))
 
+    ##### Property Annotations and Definitions #####
+
+    def _capture_properties(self, prop_type):
+        """
+        Helper to capture all triples for a given property type.
+        """
+        for prop in self.graph.subjects(RDF.type, prop_type):
+            for pred, obj in self.graph.predicate_objects(prop):
+                if pred in {
+                    RDF.type,
+                    RDFS.domain,
+                    RDFS.range,
+                    RDFS.label,
+                    RDFS.comment,
+                    OWL.inverseOf,
+                }:
+                    self._property_defs.append((prop, pred, obj))
+
+    def add_property_definitions(self):
+        """
+        Restores all captured ObjectProperty and DatatypeProperty definition triples.
+        """
+        for s, p, o in self._property_defs:
+            self.graph.add((s, p, o))
+
+    def _replace_property_tag(self, rdf_str: str, uri: str, tag: str) -> str:
+        """
+        Helper to replace <rdf:Description> for a given property URI with <owl:*> tags.
+        """
+        pattern = (
+            rf'<rdf:Description rdf:about="(?P<about>[^"]+)">\s*'
+            rf'<rdf:type rdf:resource="{re.escape(uri)}"\s*/>(?P<inner>.*?)'
+            rf"</rdf:Description>"
+        )
+        return re.sub(
+            pattern,
+            lambda m: f'<{tag} rdf:about="{m.group("about")}">{m.group("inner")}</{tag}>',
+            rdf_str,
+            flags=re.DOTALL,
+        )
+
+    def _post_process(self, rdf_str: str) -> str:
+        """
+        Apply regex replacements for Object, Datatype, Annotation properties.
+        """
+        rdf_str = self._replace_property_tag(
+            rdf_str, OWL.ObjectProperty.toPython(), "owl:ObjectProperty"
+        )
+        rdf_str = self._replace_property_tag(
+            rdf_str, OWL.DatatypeProperty.toPython(), "owl:DatatypeProperty"
+        )
+        rdf_str = self._replace_property_tag(
+            rdf_str, OWL.AnnotationProperty.toPython(), "owl:AnnotationProperty"
+        )
+        return rdf_str
+
+    ##### Serialization #####
+
     def serialize(self, destination: str | None = None, fmt: str = "xml"):
         """
-        Serializes the RDF graph to the specified destination in the given format.
-
-        :param destination: The file path where the serialized graph will be saved.
-        :param fmt: The format in which to serialize the graph (default is 'xml').
+        Serializes the RDF graph to the specified destination, then post-
+        processes the RDF/XML string to convert generic <rdf:Description>
+        blocks into proper <owl:*Property> tags.
         """
         target = destination or self.work_path
-        self.graph.serialize(destination=target, format=fmt)
+        rdf_str = self.graph.serialize(format=fmt)
+        if isinstance(rdf_str, bytes):
+            rdf_str = rdf_str.decode("utf-8")
+        rdf_str = self._post_process(rdf_str)
+        with open(target, "w", encoding="utf-8") as f:
+            f.write(rdf_str)
         print(f"Updated ontology saved as '{target}'")
 
 

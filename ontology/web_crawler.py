@@ -51,6 +51,20 @@ class RehabOntologyCrawler:
             if span.get_text(strip=True)
         }
         return texts
+    
+    def add_categories(self, texts: set[str], parent_class: URIRef):
+        """
+        Adds categories as subclasses of the specified parent class in the ontology.
+
+        :param texts: A set of category names to be added as subclasses.
+        :param parent_class: The URIRef of the parent class to which the categories will be added as subclasses.
+        """
+        for text in texts:
+            uri = self.REHAB[text.replace(" ", "_")]
+            self.graph.add((uri, RDF.type, OWL.Class))
+            self.graph.add((uri, RDFS.subClassOf, parent_class))
+            self.graph.add((uri, RDFS.label, Literal(text)))
+
 
     def add_strengthening(self, parent_class: URIRef):
         """
@@ -59,10 +73,10 @@ class RehabOntologyCrawler:
         :param parent_class: The URIRef of the parent class to which 'Strengthening' will be added as a subclass.
         """
         uri = self.REHAB["Strengthening"]
-        if (uri, RDF.type, OWL.Class) not in self.g:
-            self.g.add((uri, RDF.type, OWL.Class))
-            self.g.add((uri, RDFS.subClassOf, parent_class))
-            self.g.add((uri, RDFS.label, Literal("Strengthening")))
+        if (uri, RDF.type, OWL.Class) not in self.graph:
+            self.graph.add((uri, RDF.type, OWL.Class))
+            self.graph.add((uri, RDFS.subClassOf, parent_class))
+            self.graph.add((uri, RDFS.label, Literal("Strengthening")))
 
     def serialize(self, destination: str, fmt: str = "xml"):
         """
@@ -71,7 +85,7 @@ class RehabOntologyCrawler:
         :param destination: The file path where the serialized graph will be saved.
         :param fmt: The format in which to serialize the graph (default is 'xml').
         """
-        self.g.serialize(destination=destination, format=fmt)
+        self.graph.serialize(destination=destination, format=fmt)
         print(f"Updated ontology saved as '{destination}'")
 
 

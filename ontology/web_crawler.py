@@ -153,7 +153,7 @@ class RehabOntologyCrawler:
 
 if __name__ == "__main__":
     crawler = RehabOntologyCrawler(
-        ontology_path="Rehab.rdf",
+        base_ontology_path="Rehab.rdf",
     )
     urls_to_scrape = ["https://www.rehabhero.ca/back", "https://www.rehabhero.ca/neck"]
-    crawler.run(urls_to_scrape, destination="Scraped_Rehab_2.rdf")
+    crawler.run(urls_to_scrape, destination="Scraped_Rehab_Final.rdf")

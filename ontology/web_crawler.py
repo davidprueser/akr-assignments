@@ -3,6 +3,7 @@ This module defines a web crawler that scrapes exercise categories and their det
 and updates an RDF ontology with the scraped data.
 
 Date: 04.07.2025
+Last updated: 04.07.2025
 """
 
 import requests
@@ -323,9 +324,9 @@ if __name__ == "__main__":
         "https://www.rehabhero.ca/back",
     ]
 
-    # "https://www.rehabhero.ca/neck", https://www.rehabhero.ca/low-back,  https://www.rehabhero.ca/shoulder, https://www.rehabhero.ca/hip, 
+    # "https://www.rehabhero.ca/neck", https://www.rehabhero.ca/low-back,  https://www.rehabhero.ca/shoulder, https://www.rehabhero.ca/hip,
     # https://www.rehabhero.ca/elbow, https://www.rehabhero.ca/knee, https://www.rehabhero.ca/wrist, https://www.rehabhero.ca/ankle
-    # https://www.rehabhero.ca/hand, https://www.rehabhero.ca/foot, https://www.rehabhero.ca/tmj 
+    # https://www.rehabhero.ca/hand, https://www.rehabhero.ca/foot, https://www.rehabhero.ca/tmj
     category_urls = [
         "https://www.rehabhero.ca/exercise/category/Thoracic+Flexibility",
         "https://www.rehabhero.ca/exercise/category/Thoracic+Strengthening",

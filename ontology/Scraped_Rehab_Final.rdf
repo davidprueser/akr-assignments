@@ -837,7 +837,7 @@
     <rehab:hasSymptom rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#MusclePain"/>
   </rdf:Description>
   
-  <rdf:Description rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#">
+  <rdf:Description rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Myopathy">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
     <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#MuscleTissueDisease"/>
     <rdfs:label xml:lang="en">Myopathy</rdfs:label>
@@ -996,7 +996,7 @@
 
   <rdf:Description rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Leg">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Muscle"/>
+    <rdf:subClassOf rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Muscle"/>
     <rdfs:comment xml:lang="en">Leg related Muscles</rdfs:comment>
     <rdfs:label xml:lang="en">Leg</rdfs:label>
   </rdf:Description>
@@ -1758,7 +1758,7 @@
 
   <rdf:Description rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Arm">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Muscle"/>
+    <rdf:subClassOf rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Muscle"/>
     <rdfs:comment xml:lang="en">Arm Related Muscles</rdfs:comment>
     <rdfs:label xml:lang="en">Arm</rdfs:label>
   </rdf:Description>

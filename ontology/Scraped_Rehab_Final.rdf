@@ -199,7 +199,7 @@
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#NeckPain"/>
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#JointPain"/>
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Headache"/>
-    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Neck_Muscles"/>
+    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Neck"/>
     <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Easy"/>
     <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
     <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Child"/>
@@ -281,7 +281,7 @@
     <rdfs:label>Band Assisted Thoracic Extension</rdfs:label>
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#MusclePain"/>
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Backache"/>
-    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Back_Muscles"/>
+    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Back"/>
     <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Easy"/>
     <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Child"/>
     <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
@@ -301,7 +301,7 @@
     <rdfs:label>Standing Rhomboids Stretch</rdfs:label>
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#MusclePain"/>
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Backache"/>
-    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Back_Muscles"/>
+    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Back"/>
     <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Easy"/>
     <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Child"/>
     <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
@@ -350,7 +350,7 @@
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#ShoulderPain"/>
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#NeckPain"/>
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Headache"/>
-    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Back_Muscles"/>
+    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Back"/>
     <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Intermediate"/>
     <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Child"/>
     <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
@@ -370,7 +370,7 @@
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#MusclePain"/>
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Backache"/>
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#ShoulderPain"/>
-    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Back_Muscles"/>
+    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Back"/>
     <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Intermediate"/>
     <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Child"/>
     <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
@@ -389,7 +389,7 @@
     <rdfs:label>Isometric Row Squats</rdfs:label>
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#MusclePain"/>
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Backache"/>
-    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Back_Muscles"/>
+    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Back"/>
     <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Easy"/>
     <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Child"/>
     <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
@@ -409,8 +409,8 @@
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#MusclePain"/>
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#ShoulderPain"/>
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Backache"/>
-    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Back_Muscles"/>
-    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Shoulder_Muscles"/>
+    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Back"/>
+    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Shoulder"/>
     <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Hard"/>
     <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
     <rehab:hasDuration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</rehab:hasDuration>
@@ -427,8 +427,8 @@
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#MusclePain"/>
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#ShoulderPain"/>
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Backache"/>
-    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Back_Muscles"/>
-    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Shoulder_Muscles"/>
+    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Back"/>
+    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Shoulder"/>
     <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Hard"/>
     <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
     <rehab:hasDuration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</rehab:hasDuration>
@@ -446,8 +446,8 @@
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#MusclePain"/>
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#ShoulderPain"/>
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Backache"/>
-    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Back_Muscles"/>
-    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Shoulder_Muscles"/>
+    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Back"/>
+    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Shoulder"/>
     <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Easy"/>
     <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Child"/>
     <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
@@ -469,8 +469,8 @@
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#MusclePain"/>
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#ShoulderPain"/>
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Backache"/>
-    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Back_Muscles"/>
-    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Shoulder_Muscles"/>
+    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Back"/>
+    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Shoulder"/>
     <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Intermediate"/>
     <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
     <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Senior"/>
@@ -482,13 +482,13 @@
     <rehab:sourceUrl>https://www.rehabhero.ca/exercise/band-assisted-thread-the-needle</rehab:sourceUrl>
   </rdf:Description>
 
-  <rdf:Description rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Back_Muscles">
+  <rdf:Description rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Back">
     <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Muscle"/>
     <rdfs:comment xml:lang="en">Back related Muscles</rdfs:comment>
     <rdfs:label xml:lang="en">Back</rdfs:label>
   </rdf:Description>
   
-  <rdf:Description rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Neck_Muscles">
+  <rdf:Description rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Neck">
     <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Muscle"/>
     <rdfs:comment xml:lang="en">Neck related Muscles</rdfs:comment>
     <rdfs:label xml:lang="en">Neck</rdfs:label>
@@ -501,8 +501,8 @@
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#MusclePain"/>
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#AbdominalPain"/>
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Backache"/>
-    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Back_Muscles"/>
-    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Abdominal_Muscles"/>
+    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Back"/>
+    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Abdominal"/>
     <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Easy"/>
     <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Child"/>
     <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
@@ -528,8 +528,8 @@
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#MusclePain"/>
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#ShoulderPain"/>
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Backache"/>
-    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Back_Muscles"/>
-    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Shoulder_Muscles"/>
+    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Back"/>
+    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Shoulder"/>
     <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Hard"/>
     <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
     <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Senior"/>
@@ -550,7 +550,7 @@
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Backache"/>
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Headache"/>
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#NeckPain"/>
-    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Back_Muscles"/>
+    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Back"/>
     <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Hard"/>
     <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
     <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Senior"/>
@@ -569,7 +569,7 @@
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#MusclePain"/>
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#HipPain"/>
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Backache"/>
-    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Back_Muscles"/>
+    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Back"/>
     <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Easy"/>
     <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Child"/>
     <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
@@ -582,13 +582,13 @@
     <rehab:sourceUrl>https://www.rehabhero.ca/exercise/squat-and-row</rehab:sourceUrl>
   </rdf:Description>
 
-  <rdf:Description rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Shoulder_Muscles">
+  <rdf:Description rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Shoulder">
     <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Muscle"/>
     <rdfs:comment xml:lang="en">Shoulder related Muscles</rdfs:comment>
     <rdfs:label xml:lang="en">Shoulder</rdfs:label>
   </rdf:Description>
   
-  <rdf:Description rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Abdominal_Muscles">
+  <rdf:Description rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Abdominal">
     <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Muscle"/>
     <rdfs:comment xml:lang="en">Shoulder related Muscles</rdfs:comment>
     <rdfs:label xml:lang="en">Shoulder</rdfs:label>
@@ -614,8 +614,8 @@
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#MusclePain"/>
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#ShoulderPain"/>
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Backache"/>
-    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Back_Muscles"/>
-    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Shoulder_Muscles"/>
+    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Back"/>
+    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Shoulder"/>
     <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Intermediate"/>
     <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Child"/>
     <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
@@ -721,8 +721,8 @@
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#MusclePain"/>
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#NeckPain"/>
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Backache"/>
-    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Back_Muscles"/>
-    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Neck_Muscles"/>
+    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Back"/>
+    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Neck"/>
     <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Intermediate"/>
     <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Child"/>
     <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
@@ -745,7 +745,7 @@
     <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Mobility"/>
     <rdfs:label>Thoracic Swimmers</rdfs:label>
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#ShoulderPain"/>
-    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Shoulder_Muscles"/>
+    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Shoulder"/>
     <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Easy"/>
     <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Child"/>
     <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
@@ -788,7 +788,7 @@
     <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Strengthening"/>
     <rdfs:label>Half Kneel Lower Lat Pulldown</rdfs:label>
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#ShoulderPain"/>
-    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Shoulder_Muscles"/>
+    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Shoulder"/>
     <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Easy"/>
     <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Child"/>
     <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
@@ -807,7 +807,7 @@
     <rdfs:label>Wall Thoracic Extension</rdfs:label>
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#MusclePain"/>
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Backache"/>
-    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Back_Muscles"/>
+    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Back"/>
     <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Easy"/>
     <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Child"/>
     <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
@@ -887,8 +887,8 @@
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#MusclePain"/>
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#NeckPain"/>
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Backache"/>
-    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Back_Muscles"/>
-    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Neck_Muscles"/>
+    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Back"/>
+    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Neck"/>
     <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Easy"/>
     <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Child"/>
     <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
@@ -920,7 +920,7 @@
     <rdfs:label>Banded Angels</rdfs:label>
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#MusclePain"/>
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Backache"/>
-    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Back_Muscles"/>
+    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Back"/>
     <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Intermediate"/>
     <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
     <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Senior"/>
@@ -938,7 +938,7 @@
     <rdfs:label>Windshield Wiper</rdfs:label>
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#MusclePain"/>
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#ShoulderPain"/>
-    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Shoulder_Muscles"/>
+    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Shoulder"/>
     <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Intermediate"/>
     <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
     <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Senior"/>
@@ -956,8 +956,8 @@
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#MusclePain"/>
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#ShoulderPain"/>
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Backache"/>
-    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Back_Muscles"/>
-    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Shoulder_Muscles"/>
+    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Back"/>
+    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Shoulder"/>
     <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Intermediate"/>
     <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Child"/>
     <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
@@ -982,7 +982,7 @@
     <rdfs:label>Bench Supported High Row</rdfs:label>
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#MusclePain"/>
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#ShoulderPain"/>
-    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Shoulder_Muscles"/>
+    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Shoulder"/>
     <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Intermediate"/>
     <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
     <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Senior"/>
@@ -994,14 +994,14 @@
     <rehab:sourceUrl>https://www.rehabhero.ca/exercise/bench-supported-high-row</rehab:sourceUrl>
   </rdf:Description>
 
-  <rdf:Description rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Leg_Muscles">
+  <rdf:Description rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Leg">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
     <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Muscle"/>
     <rdfs:comment xml:lang="en">Leg related Muscles</rdfs:comment>
     <rdfs:label xml:lang="en">Leg</rdfs:label>
   </rdf:Description>
 
-  <rdf:Description rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Chest_Muscles">
+  <rdf:Description rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Chest">
     <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Muscle"/>
     <rdfs:comment xml:lang="en">Chest related Muscles</rdfs:comment>
     <rdfs:label xml:lang="en">Chest</rdfs:label>
@@ -1014,8 +1014,8 @@
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#MusclePain"/>
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#NeckPain"/>
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Backache"/>
-    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Back_Muscles"/>
-    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Neck_Muscles"/>
+    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Back"/>
+    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Neck"/>
     <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Hard"/>
     <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
     <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Senior"/>
@@ -1035,7 +1035,7 @@
     <rdfs:label>Bench Supported High Row</rdfs:label>
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#MusclePain"/>
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Backache"/>
-    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Back_Muscles"/>
+    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Back"/>
     <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Easy"/>
     <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
     <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Senior"/>
@@ -1054,8 +1054,8 @@
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#MusclePain"/>
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#NeckPain"/>
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Backache"/>
-    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Back_Muscles"/>
-    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Neck_Muscles"/>
+    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Back"/>
+    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Neck"/>
     <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Intermediate"/>
     <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
     <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Senior"/>
@@ -1072,7 +1072,7 @@
     <rdfs:label>Doorway Lean Back</rdfs:label>
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#MusclePain"/>
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Backache"/>
-    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Back_Muscles"/>
+    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Back"/>
     <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Easy"/>
     <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
     <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Senior"/>
@@ -1096,7 +1096,7 @@
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#MusclePain"/>
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#HipPain"/>
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Backache"/>
-    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Back_Muscles"/>
+    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Back"/>
     <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Easy"/>
     <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Child"/>
     <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
@@ -1120,8 +1120,8 @@
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#MusclePain"/>
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#NeckPain"/>
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Backache"/>
-    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Back_Muscles"/>
-    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Neck_Muscles"/>
+    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Back"/>
+    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Neck"/>
     <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Easy"/>
     <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
     <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Senior"/>
@@ -1140,8 +1140,8 @@
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#MusclePain"/>
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#ShoulderPain"/>
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Backache"/>
-    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Back_Muscles"/>
-    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Shoulder_Muscles"/>
+    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Back"/>
+    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Shoulder"/>
     <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Easy"/>
     <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
     <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Senior"/>
@@ -1159,8 +1159,8 @@
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#MusclePain"/>
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#ShoulderPain"/>
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Backache"/>
-    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Back_Muscles"/>
-    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Shoulder_Muscles"/>
+    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Back"/>
+    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Shoulder"/>
     <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Easy"/>
     <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Child"/>
     <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
@@ -1179,7 +1179,7 @@
     <rdfs:label>Single Arm Cable Row</rdfs:label>
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#MusclePain"/>
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Backache"/>
-    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Back_Muscles"/>
+    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Back"/>
     <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Intermediate"/>
     <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
     <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Senior"/>
@@ -1263,7 +1263,7 @@
     <rdfs:label>Seated Thoracic Sprinkler</rdfs:label>
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#MusclePain"/>
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Headache"/>
-    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Neck_Muscles"/>
+    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Neck"/>
     <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Easy"/>
     <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Child"/>
     <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
@@ -1286,7 +1286,7 @@
     <rdfs:label>Banded Rib Mobilization</rdfs:label>
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#SevereJointPain"/>
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#ChestParin"/>
-    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Chest_Muscles"/>
+    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Chest"/>
     <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Easy"/>
     <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Child"/>
     <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
@@ -1306,8 +1306,8 @@
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#MusclePain"/>
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#NeckParin"/>
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Backache"/>
-    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Back_Muscles"/>
-    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Neck_Muscles"/>
+    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Back"/>
+    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Neck"/>
     <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Hard"/>
     <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
     <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Senior"/>
@@ -1325,7 +1325,7 @@
     <rdfs:label>Segmental Thoracic Extension</rdfs:label>
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#SevereJointPain"/>
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Backache"/>
-    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Back_Muscles"/>
+    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Back"/>
     <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Hard"/>
     <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
     <rehab:hasDuration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</rehab:hasDuration>
@@ -1345,8 +1345,8 @@
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#NeckPain"/>
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Backache"/>
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Headache"/>
-    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Back_Muscles"/>
-    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Neck_Muscles"/>
+    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Back"/>
+    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Neck"/>
     <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Intermediate"/>
     <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Child"/>
     <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
@@ -1364,7 +1364,7 @@
     <rdfs:label>Prone Back Extension</rdfs:label>
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#MusclePain"/>
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Backache"/>
-    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Back_Muscles"/>
+    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Back"/>
     <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Easy"/>
     <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Child"/>
     <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
@@ -1382,7 +1382,7 @@
     <rdfs:label>Rotation Wall Push</rdfs:label>
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#MusclePain"/>
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Backache"/>
-    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Back_Muscles"/>
+    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Back"/>
     <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Easy"/>
     <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Child"/>
     <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
@@ -1408,7 +1408,7 @@
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#MusclePain"/>
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#NeckPain"/>
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Backache"/>
-    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Back_Muscles"/>
+    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Back"/>
     <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Easy"/>
     <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Child"/>
     <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
@@ -1428,7 +1428,7 @@
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#MusclePain"/>
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#HipPain"/>
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Backache"/>
-    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Back_Muscles"/>
+    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Back"/>
     <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Hard"/>
     <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
     <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Senior"/>
@@ -1447,7 +1447,7 @@
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#MusclePain"/>
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#NeckPain"/>
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Headache"/>
-    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Neck_Muscles"/>
+    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Neck"/>
     <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Easy"/>
     <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Child"/>
     <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
@@ -1466,7 +1466,7 @@
     <rdfs:label>Prone Extension with Dowel</rdfs:label>
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#MusclePain"/>
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Backache"/>
-    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Back_Muscles"/>
+    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Back"/>
     <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Easy"/>
     <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Child"/>
     <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
@@ -1485,7 +1485,7 @@
     <rdfs:label>Banded First Rib Head Tilt</rdfs:label>
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#SevereJointPain"/>
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#ChestPain"/>
-    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Chest_Muscles"/>
+    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Chest"/>
     <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Easy"/>
     <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Child"/>
     <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
@@ -1506,7 +1506,7 @@
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#NeckPain"/>
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Headache"/>
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Backache"/>
-    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Back_Muscles"/>
+    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Back"/>
     <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Intermediate"/>
     <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
     <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Senior"/>
@@ -1527,9 +1527,9 @@
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#ShoulderPain"/>
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Headache"/>
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Backache"/>
-    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Back_Muscles"/>
-    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Shoulder_Muscles"/>
-    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Neck_Muscles"/>
+    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Back"/>
+    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Shoulder"/>
+    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Neck"/>
     <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Easy"/>
     <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Child"/>
     <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
@@ -1556,7 +1556,7 @@
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#MusclePain"/>
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#HipPain"/>
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Backache"/>
-    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Back_Muscles"/>
+    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Back"/>
     <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Easy"/>
     <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Child"/>
     <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
@@ -1575,7 +1575,7 @@
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#MusclePain"/>
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#HipPain"/>
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Backache"/>
-    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Back_Muscles"/>
+    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Back"/>
     <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Intermediate"/>
     <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Child"/>
     <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
@@ -1595,8 +1595,8 @@
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#MusclePain"/>
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#NeckPain"/>
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Backache"/>
-    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Neck_Muscles"/>
-    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Back_Muscles"/>
+    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Neck"/>
+    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Back"/>
     <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Hard"/>
     <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Child"/>
     <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
@@ -1616,9 +1616,9 @@
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#MusclePain"/>
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#ShoulderPain"/>
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Backache"/>
-    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Shoulder_Muscles"/>
+    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Shoulder"/>
     <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Triceps"/>
-    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Back_Muscles"/>
+    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Back"/>
     <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Intermediate"/>
     <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
     <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Senior"/>
@@ -1637,7 +1637,7 @@
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#MusclePain"/>
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#HipPain"/>
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Backache"/>
-    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Back_Muscles"/>
+    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Back"/>
     <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Hard"/>
     <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
     <rehab:hasDuration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</rehab:hasDuration>
@@ -1654,7 +1654,7 @@
     <rdfs:label>Dumbbell Scapular Circle</rdfs:label>
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#MusclePain"/>
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#ShoulderPain"/>
-    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Shoulder_Muscles"/>
+    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Shoulder"/>
     <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Intermediate"/>
     <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
     <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Senior"/>
@@ -1673,7 +1673,7 @@
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#MusclePain"/>
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#ShoulderPain"/>
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Backache"/>
-    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Shoulder_Muscles"/>
+    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Shoulder"/>
     <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Intermediate"/>
     <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
     <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Senior"/>
@@ -1693,8 +1693,8 @@
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#NeckPain"/>
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Backache"/>
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Headache"/>
-    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Neck_Muscles"/>
-    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Back_Muscles"/>
+    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Neck"/>
+    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Back"/>
     <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Easy"/>
     <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Child"/>
     <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
@@ -1717,7 +1717,7 @@
     <rdfs:label>Wall Angel</rdfs:label>
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#MusclePain"/>
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#ShoulderPain"/>
-    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Shoulder_Muscles"/>
+    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Shoulder"/>
     <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Easy"/>
     <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Child"/>
     <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
@@ -1735,7 +1735,7 @@
     <rdfs:label>Back Extension Dowel Press</rdfs:label>
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#MusclePain"/>
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Backache"/>
-    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Back_Muscles"/>
+    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Back"/>
     <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Triceps"/>
     <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Intermediate"/>
     <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Child"/>
@@ -1756,7 +1756,7 @@
     <rdfs:label xml:lang="en">Muscle Group</rdfs:label>
   </rdf:Description>
 
-  <rdf:Description rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Arm_Muscles">
+  <rdf:Description rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Arm">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
     <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Muscle"/>
     <rdfs:comment xml:lang="en">Arm Related Muscles</rdfs:comment>
@@ -1775,7 +1775,7 @@
     <rdfs:label>Lat Stretch Row</rdfs:label>
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#MusclePain"/>
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Backache"/>
-    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Back_Muscles"/>
+    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Back"/>
     <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Intermediate"/>
     <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Child"/>
     <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
@@ -1795,8 +1795,8 @@
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#MusclePain"/>
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#ShoulderPain"/>
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Backache"/>
-    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Back_Muscles"/>
-    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Shoulder_Muscles"/>
+    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Back"/>
+    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Shoulder"/>
     <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Easy"/>
     <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Child"/>
     <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
@@ -1815,8 +1815,8 @@
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#MusclePain"/>
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#ShoulderPain"/>
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Backache"/>
-    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Back_Muscles"/>
-    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Shoulder_Muscles"/>
+    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Back"/>
+    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Shoulder"/>
     <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Hard"/>
     <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Child"/>
     <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
@@ -1835,7 +1835,7 @@
     <rdfs:label>Banded Scapular Roll</rdfs:label>
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#MusclePain"/>
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#ShoulderPain"/>
-    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Shoulder_Muscles"/>
+    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Shoulder"/>
     <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Triceps"/>
     <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Hard"/>
     <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Child"/>
@@ -1874,7 +1874,7 @@
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#MusclePain"/>
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#HipPain"/>
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Backache"/>
-    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Back_Muscles"/>
+    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Back"/>
     <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Triceps"/>
     <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Hard"/>
     <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
@@ -1894,7 +1894,7 @@
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#MusclePain"/>
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#SevereJointPain"/>
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Backache"/>
-    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Back_Muscles"/>
+    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Back"/>
     <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Easy"/>
     <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Child"/>
     <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
@@ -1918,7 +1918,7 @@
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#MusclePain"/>
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#HipPain"/>
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Backache"/>
-    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Back_Muscles"/>
+    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Back"/>
     <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Hard"/>
     <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
     <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Senior"/>
@@ -1996,9 +1996,9 @@
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#NeckPain"/>
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Headache"/>
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Backache"/>
-    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Back_Muscles"/>
-    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Shoulder_Muscles"/>
-    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Neck_Muscles"/>
+    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Back"/>
+    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Shoulder"/>
+    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Neck"/>
     <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Intermediate"/>
     <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
     <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Senior"/>
@@ -2016,7 +2016,7 @@
     <rdfs:label>Thoracic Cat Camel</rdfs:label>
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#MusclePain"/>
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Backache"/>
-    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Back_Muscles"/>
+    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Back"/>
     <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Easy"/>
     <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Child"/>
     <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
@@ -2034,7 +2034,7 @@
     <rdfs:label>Thoracic Wall Sweep</rdfs:label>
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#MusclePain"/>
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Backache"/>
-    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Back_Muscles"/>
+    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Back"/>
     <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Intermediate"/>
     <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Child"/>
     <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
@@ -2053,8 +2053,8 @@
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#MusclePain"/>
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#ShoulderPain"/>
     <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Backache"/>
-    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Back_Muscles"/>
-    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Shoulder_Muscles"/>
+    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Back"/>
+    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Shoulder"/>
     <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Intermediate"/>
     <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
     <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Senior"/>

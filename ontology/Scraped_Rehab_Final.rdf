@@ -160,56 +160,12 @@
     
 
 
-  <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#hasLabel -->
-
-  <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#hasLabel">
-      <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-  </owl:DatatypeProperty>
-    
-
-
-  <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#hasMaxAge -->
-
-  <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#hasMaxAge">
-      <rdfs:domain rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Exercise"/>
-      <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
-  </owl:DatatypeProperty>
-    
-
-
-  <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#hasMinAge -->
-
-  <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#hasMinAge">
-      <rdfs:domain rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Exercise"/>
-      <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
-  </owl:DatatypeProperty>
-    
-
-
   <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#hasName -->
 
   <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#hasName">
       <rdfs:domain rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Disease"/>
       <rdfs:domain rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Exercise"/>
       <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-  </owl:DatatypeProperty>
-    
-
-
-  <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#hasPainDuration -->
-
-  <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#hasPainDuration">
-      <rdfs:domain rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Pain"/>
-      <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
-  </owl:DatatypeProperty>
-    
-
-
-  <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#hasPainLevel -->
-
-  <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#hasPainLevel">
-      <rdfs:domain rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Pain"/>
-      <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
   </owl:DatatypeProperty>
     
 
@@ -222,18 +178,8 @@
   </owl:DatatypeProperty>
     
 
-
-  <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#hasTriggerMovement -->
-
-  <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#hasTriggerMovement">
-      <rdfs:domain rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Pain"/>
-      <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-  </owl:DatatypeProperty>
-  
-  <!------------------------------------------------------------------------------------------------------>
-
   <rdf:Description rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#MusclePain">
-    <rdf:type #rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Pain"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Pain"/>
     <rdfs:comment xml:lang="en">Muscles causing pain</rdfs:comment>
     <rdfs:label xml:lang="en">Muscle Pain</rdfs:label>
     <rdfs:seeAlso xml:lang="en">http://purl.obolibrary.org/obo/SYMP_0019161</rdfs:seeAlso>
@@ -270,6 +216,36 @@
     <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Disease"/>
     <rdfs:label xml:lang="en">Injury</rdfs:label>
     <rdfs:seeAlso xml:lang="en">http://purl.obolibrary.org/obo/MONDO_0021178</rdfs:seeAlso>
+    <rehab:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Injury</rehab:hasName>
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#HeadInjury">
+    <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Injury"/>
+    <rdfs:label xml:lang="en">Head Injury</rdfs:label>
+    <rdfs:seeAlso xml:lang="en">http://purl.obolibrary.org/obo/MONDO_0800482</rdfs:seeAlso>
+    <rehab:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Head Injury</rehab:hasName>
+    <rehab:hasSymptom rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Headache"/>
+  </rdf:Description>head injury
+  
+  <rdf:Description rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#SpinalInjury">
+    <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Injury"/>
+    <rdfs:label xml:lang="en">Spinal Injury</rdfs:label>
+    <rdfs:seeAlso xml:lang="en">http://purl.obolibrary.org/obo/MONDO_0037747</rdfs:seeAlso>
+    <rehab:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spinal Injury</rehab:hasName>
+    <rehab:hasSymptom rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#NeckPain"/>
+    <rehab:hasSymptom rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Backache"/>
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#BoneFractureInjury">
+    <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Injury"/>
+    <rdfs:label xml:lang="en">Bone Fracture Injury</rdfs:label>
+    <rdfs:seeAlso xml:lang="en">http://purl.obolibrary.org/obo/MONDO_0005315</rdfs:seeAlso>
+    <rehab:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bone Fracture Injury</rehab:hasName>
+    <rehab:hasSymptom rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#ShoulderPain"/>
+    <rehab:hasSymptom rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#ElbowPain"/>
+    <rehab:hasSymptom rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#HipPain"/>
+    <rehab:hasSymptom rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#KneePain"/>
+    <rehab:hasSymptom rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#SevereJointPain"/>
   </rdf:Description>
 
   <rdf:Description rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Disease">
@@ -318,11 +294,6 @@
     <rehab:sourceUrl>https://www.rehabhero.ca/exercise/band-assisted-thoracic-extension</rehab:sourceUrl>
   </rdf:Description>
 
-  <rdf:Description rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Fibromyalgia">
-    <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Syndrome"/>
-    <rdfs:label xml:lang="en">Fibromyalgia</rdfs:label>
-    <rdfs:seeAlso xml:lang="en">http://purl.obolibrary.org/obo/DOID_631</rdfs:seeAlso>
-  </rdf:Description>
 
   <rdf:Description rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Standing_Rhomboids_Stretch">
     <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Exercise"/>
@@ -550,12 +521,6 @@
     <rdfs:label xml:lang="en">Senior</rdfs:label>
   </rdf:Description>
 
-  <rdf:Description rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Migraine">
-    <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#BrainDisease"/>
-    <rdfs:label xml:lang="en">Migraine</rdfs:label>
-    <rdfs:seeAlso xml:lang="en">http://purl.obolibrary.org/obo/DOID_6364</rdfs:seeAlso>
-  </rdf:Description>
-
   <rdf:Description rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Landmine_Row">
     <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Exercise"/>
     <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Strengthening"/>
@@ -630,7 +595,7 @@
   </rdf:Description>
 
   <rdf:Description rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult">
-    <rdf:type rrdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Age"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Age"/>
     <rdfs:comment xml:lang="en">People between 16-64 years old</rdfs:comment>
     <rdfs:label xml:lang="en">Adult</rdfs:label>
   </rdf:Description>
@@ -668,6 +633,85 @@
     <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Disease"/>
     <rdfs:label xml:lang="en">Bone Disease</rdfs:label>
     <rdfs:seeAlso xml:lang="en">http://purl.obolibrary.org/obo/DOID_0080001</rdfs:seeAlso>
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Arthropathy">
+    <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#BoneDisease"/>
+    <rdfs:label xml:lang="en">Arthropathy</rdfs:label>
+    <rdfs:seeAlso xml:lang="en">http://purl.obolibrary.org/obo/DOID_381</rdfs:seeAlso>
+    <rehab:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Arthropathy</rehab:hasName>
+    <rehab:hasSymptom rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#KneePain"/>
+    <rehab:hasSymptom rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#ElbowPain"/>
+    <rehab:hasSymptom rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#SevereJointPain"/>
+    <rehab:hasSymptom rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#HipPain"/>
+    <rehab:hasSymptom rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#ShoulderPain"/>
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#BoneInflammationDisease">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#BoneDisease"/>
+    <rdfs:label xml:lang="en">Bone Inflammation Disease</rdfs:label>
+    <rdfs:seeAlso xml:lang="en">http://purl.obolibrary.org/obo/DOID_3342</rdfs:seeAlso>
+    <rehab:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bone Inflammation Disease</rehab:hasName>
+    <rehab:hasSymptom rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#KneePain"/>
+    <rehab:hasSymptom rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#ElbowPain"/>
+    <rehab:hasSymptom rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#SevereJointPain"/>
+    <rehab:hasSymptom rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#HipPain"/>
+    <rehab:hasSymptom rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#ShoulderPain"/>
+    <rehab:hasSymptom rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#NeckPain"/>
+    <rehab:hasSymptom rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Backache"/>
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#SpinalDisease">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#BoneDisease"/>
+    <rdfs:label xml:lang="en">Spinal Disease</rdfs:label>
+    <rdfs:seeAlso xml:lang="en">http://purl.obolibrary.org/obo/DOID_3342</rdfs:seeAlso>
+    <rehab:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spinal Disease</rehab:hasName>
+    <rehab:hasSymptom rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#NeckPain"/>
+    <rehab:hasSymptom rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Backache"/>
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Spondylolisthesis">
+    <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#SpinalDisease"/>
+    <rdfs:label xml:lang="en">Spondylolisthesis</rdfs:label>
+    <rdfs:seeAlso xml:lang="en">http://purl.obolibrary.org/obo/DOID_6682</rdfs:seeAlso>
+    <rehab:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spondylolisthesis</rehab:hasName>
+    <rehab:hasSymptom rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#NeckPain"/>
+    <rehab:hasSymptom rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Backache"/>
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Spondylosis">
+    <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#SpinalDisease"/>
+    <rdfs:label xml:lang="en">Spondylosis</rdfs:label>
+    <rdfs:seeAlso xml:lang="en">http://purl.obolibrary.org/obo/DOID_2247</rdfs:seeAlso>
+    <rehab:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spondylosis</rehab:hasName>
+    <rehab:hasSymptom rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#NeckPain"/>
+    <rehab:hasSymptom rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Backache"/>
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Arthritis">
+    <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#BoneInflammationDisease"/>
+    <rdfs:label xml:lang="en">Arthritis</rdfs:label>
+    <rdfs:seeAlso xml:lang="en">http://purl.obolibrary.org/obo/DOID_848</rdfs:seeAlso>
+    <rehab:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Arthritis</rehab:hasName>
+    <rehab:hasSymptom rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#KneePain"/>
+    <rehab:hasSymptom rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#ElbowPain"/>
+    <rehab:hasSymptom rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#SevereJointPain"/>
+    <rehab:hasSymptom rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#HipPain"/>
+    <rehab:hasSymptom rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#ShoulderPain"/>
+    <rehab:hasSymptom rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#NeckPain"/>
+    <rehab:hasSymptom rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Backache"/>
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Epicondylitis">
+    <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#BoneInflammationDisease"/>
+    <rdfs:label xml:lang="en">Epicondylitis</rdfs:label>
+    <rdfs:seeAlso xml:lang="en">http://purl.obolibrary.org/obo/DOID_14087</rdfs:seeAlso>
+    <rehab:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Epicondylitis</rehab:hasName>
+    <rehab:hasSymptom rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#ElbowPain"/>
+    <rehab:hasSymptom rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#SevereJointPain"/>
+    <rehab:hasSymptom rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#MusclePain"/>
   </rdf:Description>
 
   <rdf:Description rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Segmental_Cat_Cow">
@@ -779,7 +823,61 @@
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
     <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Disease"/>
     <rdfs:label xml:lang="en">Muscular Disease</rdfs:label>
+    <rehab:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Muscular Disease</rehab:hasName>
     <rdfs:seeAlso xml:lang="en">http://purl.obolibrary.org/obo/DOID_0080000</rdfs:seeAlso>
+    <rehab:hasSymptom rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#MusclePain"/>
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#MuscleTissueDisease">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#MuscularDisease"/>
+    <rdfs:label xml:lang="en">Muscle Tissue Disease</rdfs:label>
+    <rdfs:seeAlso xml:lang="en">http://purl.obolibrary.org/obo/DOID_66</rdfs:seeAlso>
+    <rehab:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Muscle Tissue Disease</rehab:hasName>
+    <rehab:hasSymptom rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#MusclePain"/>
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#MuscleTissueDisease"/>
+    <rdfs:label xml:lang="en">Myopathy</rdfs:label>
+    <rdfs:seeAlso xml:lang="en">http://purl.obolibrary.org/obo/DOID_423</rdfs:seeAlso>
+    <rehab:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Myopathy</rehab:hasName>
+    <rehab:hasSymptom rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#MusclePain"/>
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Myositis">
+    <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Myopathy"/>
+    <rdfs:label xml:lang="en">Myositis</rdfs:label>
+    <rdfs:seeAlso xml:lang="en">http://purl.obolibrary.org/obo/DOID_633</rdfs:seeAlso>
+    <rehab:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Myositis</rehab:hasName>
+    <rehab:hasSymptom rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#MusclePain"/>
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#MyofascialPainSyndrome">
+    <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Myopathy"/>
+    <rdfs:label xml:lang="en">Myofascial Pain Syndrome</rdfs:label>
+    <rdfs:seeAlso xml:lang="en">http://purl.obolibrary.org/obo/DOID_431</rdfs:seeAlso>
+    <rehab:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Myofascial Pain Syndrome</rehab:hasName>
+    <rehab:hasSymptom rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#MusclePain"/>
+    <rehab:hasSymptom rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#NeckPain"/>
+    <rehab:hasSymptom rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Backache"/>
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#RipplingMuscleDisease">
+    <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#MuscleTissueDisease"/>
+    <rdfs:label xml:lang="en">Rippling Muscle Disease</rdfs:label>
+    <rdfs:seeAlso xml:lang="en">http://purl.obolibrary.org/obo/DOID_0070308</rdfs:seeAlso>
+    <rehab:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rippling Muscle Disease</rehab:hasName>
+    <rehab:hasSymptom rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#MusclePain"/>
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#AtrophicMuscularDisease">
+    <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#MuscularDisease"/>
+    <rdfs:label xml:lang="en">Atrophic Muscular Disease</rdfs:label>
+    <rdfs:seeAlso xml:lang="en">http://purl.obolibrary.org/obo/DOID_913</rdfs:seeAlso>
+    <rehab:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Atrophic Muscular Disease</rehab:hasName>
+    <rehab:hasSymptom rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#MusclePain"/>
   </rdf:Description>
 
   <rdf:Description rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Foam_Roller_Spine_Flexion">
@@ -1109,6 +1207,54 @@
     <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Disease"/>
     <rdfs:label xml:lang="en">Syndrome</rdfs:label>
     <rdfs:seeAlso xml:lang="en">http://purl.obolibrary.org/obo/DOID_225</rdfs:seeAlso>
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Fibromyalgia">
+    <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Syndrome"/>
+    <rdfs:label xml:lang="en">Fibromyalgia</rdfs:label>
+    <rdfs:seeAlso xml:lang="en">http://purl.obolibrary.org/obo/DOID_631</rdfs:seeAlso>
+    <rehab:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fibromyalgia</rehab:hasName>
+    <rehab:hasSymptom rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#NeckPain"/>
+    <rehab:hasSymptom rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#ChestPain"/>
+    <rehab:hasSymptom rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Backache"/>
+    <rehab:hasSymptom rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#SevereJointPain"/>
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#ChronicFatigueSyndrome">
+    <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Syndrome"/>
+    <rdfs:label xml:lang="en">Chronic Fatigue Syndrome</rdfs:label>
+    <rdfs:seeAlso xml:lang="en">http://purl.obolibrary.org/obo/DOID_8544</rdfs:seeAlso>
+    <rehab:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chronic Fatigue Syndrome</rehab:hasName>
+    <rehab:hasSymptom rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#MusclePain"/>
+    <rehab:hasSymptom rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Headache"/>
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#PolymyalgiaRheumatica">
+    <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Syndrome"/>
+    <rdfs:label xml:lang="en">Polymyalgia Rheumatica</rdfs:label>
+    <rdfs:seeAlso xml:lang="en">http://purl.obolibrary.org/obo/DOID_853</rdfs:seeAlso>
+    <rehab:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Polymyalgia Rheumatica</rehab:hasName>
+    <rehab:hasSymptom rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#MusclePain"/>
+    <rehab:hasSymptom rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#NeckPain"/>
+    <rehab:hasSymptom rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#ShoulderPain"/>
+    <rehab:hasSymptom rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#HipPain"/>
+    <rehab:hasSymptom rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Backache"/>
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#RestlessLegsSyndrome">
+    <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Syndrome"/>
+    <rdfs:label xml:lang="en">Restless Legs Syndrome</rdfs:label>
+    <rdfs:seeAlso xml:lang="en">http://purl.obolibrary.org/obo/DOID_853</rdfs:seeAlso>
+    <rehab:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Restless Legs Syndrome</rehab:hasName>
+    <rehab:hasSymptom rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#MusclePain"/>
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#IrritableBowelSyndrome">
+    <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Syndrome"/>
+    <rdfs:label xml:lang="en">Irritable Bowel Syndrome</rdfs:label>
+    <rdfs:seeAlso xml:lang="en">http://purl.obolibrary.org/obo/DOID_9778</rdfs:seeAlso>
+    <rehab:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Irritable Bowel Syndrome</rehab:hasName>
+    <rehab:hasSymptom rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#AbdominalPain"/>
   </rdf:Description>
 
   <rdf:Description rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Seated_Thoracic_Sprinkler">
@@ -1790,6 +1936,22 @@
     <rdfs:label xml:lang="en">Brain Disease</rdfs:label>
     <rdfs:seeAlso xml:lang="en">http://purl.obolibrary.org/obo/DOID_936</rdfs:seeAlso>
   </rdf:Description>
+  
+  <rdf:Description rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Migraine">
+    <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#BrainDisease"/>
+    <rdfs:label xml:lang="en">Migraine</rdfs:label>
+    <rdfs:seeAlso xml:lang="en">http://purl.obolibrary.org/obo/DOID_6364</rdfs:seeAlso>
+    <rehab:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Migraine</rehab:hasName>
+    <rehab:hasSymptom rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Headache"/>
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#CerebralInfarction">
+    <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#BrainDisease"/>
+    <rdfs:label xml:lang="en">Cerebral Infarction</rdfs:label>
+    <rdfs:seeAlso xml:lang="en">http://purl.obolibrary.org/obo/DOID_3526</rdfs:seeAlso>
+    <rehab:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cerebral Infarction</rehab:hasName>
+    <rehab:hasSymptom rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Headache"/>
+  </rdf:Description>
 
   <rdf:Description rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Stretches">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
@@ -1801,12 +1963,6 @@
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
     <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Exercise"/>
     <rdfs:label>Stability</rdfs:label>
-  </rdf:Description>
-
-  <rdf:Description rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Arthritis">
-    <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#BoneDisease"/>
-    <rdfs:label xml:lang="en">Arthritis</rdfs:label>
-    <rdfs:seeAlso xml:lang="en">http://purl.obolibrary.org/obo/DOID_848</rdfs:seeAlso>
   </rdf:Description>
 
   <rdf:Description rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#doid">

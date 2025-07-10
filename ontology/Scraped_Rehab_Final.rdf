@@ -186,7 +186,8 @@
   </rdf:Description>
 
   <rdf:Description rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#JointPain">
-    <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Pain"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Pain"/>
     <rdfs:comment xml:lang="en">Joints causing pain</rdfs:comment>
     <rdfs:label xml:lang="en">Joint Pain</rdfs:label>
     <rdfs:seeAlso xml:lang="en">http://purl.obolibrary.org/obo/SYMP_0000064</rdfs:seeAlso>

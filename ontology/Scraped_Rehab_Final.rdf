@@ -1607,18 +1607,18 @@
 
 
 <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Clock_Lunge -->
-<rdf:Description rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehаб-exercises#Clock_Lunge">
-	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>	
-	<rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehаб-exercises#Exercise"/>
-	<rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehаб-exercises#Hip_Strength"/>
-	<rehаб:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehаб-exercises#Intermediate"/>	
-	<rehаб:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehаб-exercises#Adult"/>	
-	<rehаб:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehаб-exercises#KneePain"/>	
-	<rehаб:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehаб-exercises#Knee"/>		
-	<rehаб:hasInstructionURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.rehabhero.ca/exercise/clock-lunge</rehаб:hasInstructionURL>
-	<rehаб:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clock Lunge</rehаб:hasName>
-	<rehаб:sourceUrl>https://www.rehabhero.ca/exercise/clock-lunge</rehаб:sourceUrl>
-	<rdfs:label>Clock Lunge</rdfs:label>
+<rdf:Description rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Clock_Lunge">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Exercise"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Strengthening"/>
+    <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Intermediate"/>
+    <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
+    <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#KneePain"/>
+    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Leg"/>
+    <rehab:hasInstructionURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.rehabhero.ca/exercise/clock-lunge</rehab:hasInstructionURL>
+    <rehab:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clock Lunge</rehab:hasName>
+    <rehab:sourceUrl>https://www.rehabhero.ca/exercise/clock-lunge</rehab:sourceUrl>
+    <rdfs:label>Clock Lunge</rdfs:label>
 </rdf:Description>
 <!--  -->
 <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#ContralateralHipAbductors -->

@@ -2599,6 +2599,106 @@
     <rehab:sourceUrl rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.rehabhero.ca/exercise/biceps-active-massage</rehab:sourceUrl>
   </rdf:Description>
 
+  <rdf:Description rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Clock_Lunge">
+    <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Exercise"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Flexibility"/>
+    <rdfs:label xml:lang="en">Clock Lunge</rdfs:label>
+    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Quadriceps"/>
+    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#VastusLateralis"/>
+    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#VastusIntermedius"/>
+    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#VastusMedialis"/>
+    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#RectusFemoris"/>
+    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#GluteusMedii"/>
+    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#GluteusMaximus"/>
+    <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#KneeMeniscusTear"/>
+    <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#ACLTear"/>
+    <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#PCLTear"/>
+    <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#MCLTear"/>
+    <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#LCLTear"/>
+    <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#AnkleSprain"/>
+    <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#AchillesTendinopathy"/>
+    <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#TibialisPosteriorTendinopathy"/>
+    <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#RunnersKnee"/>
+    <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#JumpersKnee"/>
+    <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#PatellofemoralPainSyndrome"/>
+    <rehab:hasInstructionURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.rehabhero.ca/exercise/clock-lunge</rehab:hasInstructionURL>
+    <rehab:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clock Lunge</rehab:hasName>
+    <rehab:sourceUrl rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.rehabhero.ca/exercise/clock-lunge</rehab:sourceUrl>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Banded_B_Stance_Squat">
+    <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Exercise"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Strengthening"/>
+    <rdfs:label xml:lang="en">Banded B-Stance Squat</rdfs:label>
+    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Quadriceps"/>
+    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#RectusFemoris"/>
+    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#VastusLateralis"/>
+    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#VastusIntermedius"/>
+    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#VastusMedialis"/>
+    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#GluteusMaximus"/>
+    <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#PatellofemoralPainSyndrome"/>
+    <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#PatellarTendinitis"/>
+    <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#RunnersKnee"/>
+    <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#JumpersKnee"/>
+    <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#ACLSprain"/>
+    <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#QuadricepsTendinitis"/>
+    <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#QuadricepsStrain"/>
+    <rehab:hasInstructionURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.rehabhero.ca/exercise/banded-b-stance-squat</rehab:hasInstructionURL>
+    <rehab:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Banded B-Stance Squat</rehab:hasName>
+    <rehab:sourceUrl rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.rehabhero.ca/exercise/banded-b-stance-squat</rehab:sourceUrl>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Wall_Tibial_External_Rotation_Rail">
+    <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Exercise"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Mobility"/>
+    <rdfs:label xml:lang="en">Wall Tibial External Rotation Rail</rdfs:label>
+    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#BicepsFemoris"/>
+    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#TensorFasciaLatae"/>
+    <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#ITBSyndrome"/>
+    <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#KneeBursitis"/>
+    <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#LateralMeniscusTear"/>
+    <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#LCLSprain"/>
+    <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#HoffasFatPadImpingement"/>
+    <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#PatellofemoralPainSyndrome"/>
+    <rehab:hasInstructionURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.rehabhero.ca/exercise/wall-tibial-external-rotation-rail</rehab:hasInstructionURL>
+    <rehab:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wall Tibial External Rotation Rail</rehab:hasName>
+    <rehab:sourceUrl rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.rehabhero.ca/exercise/wall-tibial-external-rotation-rail</rehab:sourceUrl>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Hamstrings_Foam_Rolling">
+    <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Exercise"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Massage"/>
+    <rdfs:label xml:lang="en">Hamstrings Foam Rolling</rdfs:label>
+    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Hamstrings"/>
+    <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#SquatWarmUp"/>
+    <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#HamstringTendinopathy"/>
+    <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#DeadliftWarmUp"/>
+    <rehab:hasInstructionURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.rehabhero.ca/exercise/hamstrings-foam-roll</rehab:hasInstructionURL>
+    <rehab:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hamstrings Foam Rolling</rehab:hasName>
+    <rehab:sourceUrl rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.rehabhero.ca/exercise/hamstrings-foam-roll</rehab:sourceUrl>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Bulgarian_Split_Squat_Calf_Raise">
+    <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Exercise"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Stability"/>
+    <rdfs:label xml:lang="en">Bulgarian Split Squat Calf Raise</rdfs:label>
+    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Quadriceps"/>
+    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Gastrocnemius"/>
+    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Soleus"/>
+    <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#AnkleSprain"/>
+    <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#AchillesTendinopathy"/>
+    <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#CalfStrain"/>
+    <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#PlantarFasciitis"/>
+    <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#PatellarTendinopathy"/>
+    <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#QuadricepsTendinopathy"/>
+    <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#RunnersKnee"/>
+    <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#JumpersKnee"/>
+    <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#PatellofemoralPainSyndrome"/>
+    <rehab:hasInstructionURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.rehabhero.ca/exercise/bulgarian-split-squat-calf-raise</rehab:hasInstructionURL>
+    <rehab:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bulgarian Split Squat Calf Raise</rehab:hasName>
+    <rehab:sourceUrl rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.rehabhero.ca/exercise/bulgarian-split-squat-calf-raise</rehab:sourceUrl>
+  </rdf:Description>
+
 
   <rdf:Description rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>

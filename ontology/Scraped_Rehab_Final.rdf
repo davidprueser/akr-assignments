@@ -2067,6 +2067,133 @@
     <rehab:sourceUrl>https://www.rehabhero.ca/exercise/incline-bench-scapular-row</rehab:sourceUrl>
   </rdf:Description>
 
+  <rdf:Description rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Wall_Lumbar_Extension">
+    <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Exercise"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Stretches"/>
+    <rdfs:label xml:lang="en">Wall Lumbar Extension</rdfs:label>
+    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#LumbarDisc"/>
+    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#RectusAbdominis"/>
+    <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#LumbarDiscHerniation"/>
+    <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#LumbarRadiculopathy"/>
+    <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#RectusAbdominisContracture"/>
+    <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#MechanicalLowBackPain"/>
+    <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Easy"/>
+    <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
+    <rehab:hasDuration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">60</rehab:hasDuration>
+    <rehab:hasRepetitions rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</rehab:hasRepetitions>
+    <rehab:hasInstructionURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.rehabhero.ca/exercise/wall-lumbar-extension</rehab:hasInstructionURL>
+    <rehab:hasName xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wall Lumbar Extension</rehab:hasName>
+    <rehab:sourceUrl rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.rehabhero.ca/exercise/wall-lumbar-extension</rehab:sourceUrl>
+  </rdf:Description>
+
+
+  <rdf:Description rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Sky_Diver">
+    <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Exercise"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Strengthening"/>
+    <rdfs:label xml:lang="en">Sky Diver</rdfs:label>
+    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#ErectorSpinae"/>
+    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#QuadratusLumborum"/>
+    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#LatissimusDorsi"/>
+    <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#MechanicalLowBackPain"/>
+    <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#ErectorSpinaeStrain"/>
+    <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#SacroiliacJointSyndrome"/>
+    <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#PosteriorChainDysfunction"/>
+    <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#LowerCrossSyndrome"/>
+    <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Intermediate"/>
+    <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
+    <rehab:hasDuration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</rehab:hasDuration>
+    <rehab:hasRepetitions rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</rehab:hasRepetitions>
+    <rehab:hasInstructionURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.rehabhero.ca/exercise/sky-diver</rehab:hasInstructionURL>
+    <rehab:hasName xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sky Diver</rehab:hasName>
+    <rehab:sourceUrl rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.rehabhero.ca/exercise/sky-diver</rehab:sourceUrl>
+  </rdf:Description>
+
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Lumbar_Cat_Camel">
+    <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Exercise"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Mobility"/>
+    <rdfs:label xml:lang="en">Lumbar Cat Camel</rdfs:label>
+    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#LumbarSpine"/>
+    <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#ThoracolumbarSyndrome"/>
+    <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#LumbarFacetSyndrome"/>
+    <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#SacroiliacJointSyndrome"/>
+    <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#LowerCrossSyndrome"/>
+    <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#AcuteLowBackPain"/>
+    <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#NonSpecificLowBackPain"/>
+    <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Beginner"/>
+    <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
+    <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Senior"/>
+    <rehab:hasInstructionURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.rehabhero.ca/exercise/lumbar-cat-cow</rehab:hasInstructionURL>
+    <rehab:hasName xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lumbar Cat Camel</rehab:hasName>
+    <rehab:sourceUrl rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.rehabhero.ca/exercise/lumbar-cat-cow</rehab:sourceUrl>
+  </rdf:Description>
+
+
+  <rdf:Description rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#QL_Foam_Rolling">
+    <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Exercise"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Massage"/>
+    <rdfs:label xml:lang="en">QL Foam Rolling</rdfs:label>
+    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#QuadratusLumborum"/>
+    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#ExternalOblique"/>
+    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#LatissimusDorsi"/>
+    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#TransversusAbdominis"/>
+    <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#NonSpecificLowBackPain"/>
+    <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#SacroiliacJointSyndrome"/>
+    <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#MyofascialPainSyndromeQuadratusLumborum"/>
+    <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#LumbarFacetSyndrome"/>
+    <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#ThoracolumbarSyndrome"/>
+    <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Beginner"/>
+    <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
+    <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Senior"/>
+    <rehab:hasEquipmentRequirement rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Foam Roller</rehab:hasEquipmentRequirement>
+    <rehab:hasInstructionURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.rehabhero.ca/exercise/quadratus-lumborum-foam-roll</rehab:hasInstructionURL>
+    <rehab:hasName xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">QL Foam Rolling</rehab:hasName>
+    <rehab:sourceUrl rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.rehabhero.ca/exercise/quadratus-lumborum-foam-roll</rehab:sourceUrl>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Isometric_Abdominal_Crunch">
+    <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Exercise"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Stability"/>
+    <rdfs:label xml:lang="en">Isometric Abdominal Crunch</rdfs:label>
+    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#RectusAbdominis"/>
+    <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#MechanicalLowBackPain"/>
+    <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#AcuteLowBackPain"/>
+    <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#NonSpecificLowBackPain"/>
+    <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Beginner"/>
+    <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
+    <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Senior"/>
+    <rehab:hasInstructionURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.rehabhero.ca/exercise/isometric-abdominal-crunch</rehab:hasInstructionURL>
+    <rehab:hasName xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Isometric Abdominal Crunch</rehab:hasName>
+    <rehab:sourceUrl rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.rehabhero.ca/exercise/isometric-abdominal-crunch</rehab:sourceUrl>
+  </rdf:Description>
+
+
+  <rdf:Description rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Hinge_Squat">
+    <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Exercise"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#MotorPatterning"/>
+    <rdfs:label xml:lang="en">Hinge Squat</rdfs:label>
+    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#SacroiliacJoint"/>
+    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Quadriceps"/>
+    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#GluteusMaximus"/>
+    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#ErectorSpinae"/>
+    <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#LowBarSquatWarmUp"/>
+    <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#MechanicalLowBackPain"/>
+    <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#SacroiliacJointSyndrome"/>
+    <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#QuadratusLumborumStrain"/>
+    <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#ErectorSpinaeStrain"/>
+    <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#LumbarFacetSyndrome"/>
+    <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#ThoracolumbarSyndrome"/>
+    <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#HipSpineSyndrome"/>
+    <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Intermediate"/>
+    <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
+    <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Senior"/>
+    <rehab:hasInstructionURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.rehabhero.ca/exercise/hinge-squat</rehab:hasInstructionURL>
+    <rehab:hasName xml:lang="en" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hinge Squat</rehab:hasName>
+    <rehab:sourceUrl rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.rehabhero.ca/exercise/hinge-squat</rehab:sourceUrl>
+  </rdf:Description>
+
+
+
   <rdf:Description rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
     <rdfs:comment xml:lang="en">Exercises linking to possible Symptoms (from SYMP) and diseases (from DOID) that can be used for rehabilitation or physiotherapie</rdfs:comment>

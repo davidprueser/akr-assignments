@@ -1146,12 +1146,22 @@
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </rdf:Description>
 
+<!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Banded_Straight_Arm_Pulldown -->
 <rdf:Description rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Banded_Straight_Arm_Pulldown">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Exercise"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Shoulder_Strengthening"/>
+	<rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Intermediate"/>
+	<rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
+	<rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Senior"/>
+	<rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#MusclePain"/>
+	<rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Shoulder"/>
 	<rehab:hasInstructionURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.rehabhero.ca/exercise/banded-straight-arm-pulldown</rehab:hasInstructionURL>
-	<rehab:hasName>Banded Straight Arm Pulldown</rehab:hasName>
-	<rehab:sourceUrl rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.rehabhero.ca/exercise/banded-straight-arm-pulldown</rehab:sourceUrl>
-	<rdfs:label xml:lang="en">Banded Straight Arm Pulldown</rdfs:label>
+	<rehab:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Banded Straight Arm Pulldown</rehab:hasName>
+	<rehab:sourceUrl>https://www.rehabhero.ca/exercise/banded-straight-arm-pulldown</rehab:sourceUrl>
+	<rdfs:label>Banded Straight Arm Pulldown</rdfs:label>
 </rdf:Description>
+
 <!--  -->
 <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Beginner -->
 
@@ -1595,17 +1605,20 @@
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Clock_Lunge">
-	<rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#GluteusMedius"/>
-	<rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Quadriceps"/>
-	<rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#RectusFemoris"/>
-	<rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#VastusIntermedius"/>
-	<rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#VastusLateralis"/>
-	<rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#VastusMedialis"/>
-	<rehab:hasInstructionURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.rehabhero.ca/exercise/clock-lunge</rehab:hasInstructionURL>
-	<rehab:hasName>Clock Lunge</rehab:hasName>
-	<rehab:sourceUrl rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.rehabhero.ca/exercise/clock-lunge</rehab:sourceUrl>
-	<rdfs:label xml:lang="en">Clock Lunge</rdfs:label>
+
+<!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Clock_Lunge -->
+<rdf:Description rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehаб-exercises#Clock_Lunge">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>	
+	<rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehаб-exercises#Exercise"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehаб-exercises#Hip_Strength"/>
+	<rehаб:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehаб-exercises#Intermediate"/>	
+	<rehаб:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehаб-exercises#Adult"/>	
+	<rehаб:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehаб-exercises#KneePain"/>	
+	<rehаб:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehаб-exercises#Knee"/>		
+	<rehаб:hasInstructionURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.rehabhero.ca/exercise/clock-lunge</rehаб:hasInstructionURL>
+	<rehаб:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clock Lunge</rehаб:hasName>
+	<rehаб:sourceUrl>https://www.rehabhero.ca/exercise/clock-lunge</rehаб:sourceUrl>
+	<rdfs:label>Clock Lunge</rdfs:label>
 </rdf:Description>
 <!--  -->
 <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#ContralateralHipAbductors -->
@@ -2239,12 +2252,22 @@
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </rdf:Description>
 
+<!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Hinge_Squat -->
 <rdf:Description rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Hinge_Squat">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Exercise"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Lumbar_Motor_Patterning"/>
+	<rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Intermediate"/>
+	<rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
+	<rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Senior"/>
+	<rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Backache"/>
+	<rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Hips"/>
 	<rehab:hasInstructionURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.rehabhero.ca/exercise/hinge-squat</rehab:hasInstructionURL>
-	<rehab:hasName>Hinge Squat</rehab:hasName>
-	<rehab:sourceUrl rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.rehabhero.ca/exercise/hinge-squat</rehab:sourceUrl>
-	<rdfs:label xml:lang="en">Hinge Squat</rdfs:label>
+	<rehab:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hinge Squat</rehab:hasName>
+	<rehab:sourceUrl>https://www.rehabhero.ca/exercise/hinge-squat</rehab:sourceUrl>
+	<rdfs:label>Hinge Squat</rdfs:label>
 </rdf:Description>
+
 <!--  -->
 <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#HipAbductors -->
 
@@ -2424,15 +2447,22 @@
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </rdf:Description>
 
+<!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Irradiated_Shoulder_Extension -->
 <rdf:Description rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Irradiated_Shoulder_Extension">
-	<rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#TeresMajor"/>
-	<rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#TeresMinor"/>
-	<rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#TricepsBrachii"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Exercise"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Shoulder_Mobility"/>
+	<rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Intermediate"/>
+	<rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
+	<rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Senior"/>
+	<rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#MusclePain"/>
+	<rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Shoulder"/>
 	<rehab:hasInstructionURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.rehabhero.ca/exercise/irradiated-shoulder-extension</rehab:hasInstructionURL>
-	<rehab:hasName>Irradiated Shoulder Extension</rehab:hasName>
-	<rehab:sourceUrl rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.rehabhero.ca/exercise/irradiated-shoulder-extension</rehab:sourceUrl>
-	<rdfs:label xml:lang="en">Irradiated Shoulder Extension</rdfs:label>
+	<rehab:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Irradiated Shoulder Extension</rehab:hasName>
+	<rehab:sourceUrl>https://www.rehabhero.ca/exercise/irradiated-shoulder-extension</rehab:sourceUrl>
+	<rdfs:label>Irradiated Shoulder Extension</rdfs:label>
 </rdf:Description>
+
 <!--  -->
 <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#IrritableBowelSyndrome -->
 
@@ -2471,12 +2501,23 @@
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </rdf:Description>
 
+<!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Isometric_Abdominal_Crunch -->
 <rdf:Description rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Isometric_Abdominal_Crunch">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Exercise"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Lumbar_Stability"/>
+	<rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Easy"/>
+	<rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
+	<rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Senior"/>
+	<rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Backache"/>
+	<rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Abdomen"/>
+	<rehab:hasDuration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</rehab:hasDuration>
 	<rehab:hasInstructionURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.rehabhero.ca/exercise/isometric-abdominal-crunch</rehab:hasInstructionURL>
-	<rehab:hasName>Isometric Abdominal Crunch</rehab:hasName>
-	<rehab:sourceUrl rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.rehabhero.ca/exercise/isometric-abdominal-crunch</rehab:sourceUrl>
-	<rdfs:label xml:lang="en">Isometric Abdominal Crunch</rdfs:label>
+	<rehab:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Isometric Abdominal Crunch</rehab:hasName>
+	<rehab:sourceUrl>https://www.rehabhero.ca/exercise/isometric-abdominal-crunch</rehab:sourceUrl>
+	<rdfs:label>Isometric Abdominal Crunch</rdfs:label>
 </rdf:Description>
+
 <!--  -->
 <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Isometric_Row_Squats -->
 
@@ -2602,11 +2643,19 @@
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </rdf:Description>
 
+<!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Kettlebell_Carry_Walk_Neck_Rotation -->
 <rdf:Description rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Kettlebell_Carry_Walk_Neck_Rotation">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Exercise"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Cervical_Motor_Patterning"/>
+	<rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Intermediate"/>
+	<rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
+	<rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#NeckPain"/>
+	<rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Neck"/>
 	<rehab:hasInstructionURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.rehabhero.ca/exercise/kettlebell-carry-walk-neck-rotation</rehab:hasInstructionURL>
-	<rehab:hasName>Kettlebell Carry Walk Neck Rotation</rehab:hasName>
-	<rehab:sourceUrl rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.rehabhero.ca/exercise/kettlebell-carry-walk-neck-rotation</rehab:sourceUrl>
-	<rdfs:label xml:lang="en">Kettlebell Carry Walk Neck Rotation</rdfs:label>
+	<rehab:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kettlebell Carry Walk Neck Rotation</rehab:hasName>
+	<rehab:sourceUrl>https://www.rehabhero.ca/exercise/kettlebell-carry-walk-neck-rotation</rehab:sourceUrl>
+	<rdfs:label>Kettlebell Carry Walk Neck Rotation</rdfs:label>
 </rdf:Description>
 <!--  -->
 <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#KneeBursitis -->
@@ -2691,13 +2740,22 @@
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </rdf:Description>
 
+<!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Lat_Pulldown_Slider -->
 <rdf:Description rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Lat_Pulldown_Slider">
-	<rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#TeresMajor"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Exercise"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Shoulder_Stability"/>
+	<rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Intermediate"/>
+	<rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
+	<rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Senior"/>
+	<rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#MusclePain"/>
+	<rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Shoulder"/>
 	<rehab:hasInstructionURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.rehabhero.ca/exercise/lat-pulldown-slider</rehab:hasInstructionURL>
-	<rehab:hasName>Lat Pulldown Slider</rehab:hasName>
-	<rehab:sourceUrl rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.rehabhero.ca/exercise/lat-pulldown-slider</rehab:sourceUrl>
-	<rdfs:label xml:lang="en">Lat Pulldown Slider</rdfs:label>
+	<rehab:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lat Pulldown Slider</rehab:hasName>
+	<rehab:sourceUrl>https://www.rehabhero.ca/exercise/lat-pulldown-slider</rehab:sourceUrl>
+	<rdfs:label>Lat Pulldown Slider</rdfs:label>
 </rdf:Description>
+
 <!--  -->
 <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Lat_Stretch_Row -->
 
@@ -2754,14 +2812,20 @@
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </rdf:Description>
 
+<!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Levator_Scapulae_Active_Massage -->
 <rdf:Description rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Levator_Scapulae_Active_Massage">
-	<rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#TextNeck"/>
-	<rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#UpperCrossSyndrome"/>
-	<rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#LevatorScapulae"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Exercise"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Cervical_Flexibility"/>
+	<rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Easy"/>
+	<rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
+	<rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Senior"/>
+	<rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#NeckPain"/>
+	<rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Neck"/>
 	<rehab:hasInstructionURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.rehabhero.ca/exercise/levator-scapulae-active-massage</rehab:hasInstructionURL>
-	<rehab:hasName>Levator Scapulae Active Massage</rehab:hasName>
-	<rehab:sourceUrl rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.rehabhero.ca/exercise/levator-scapulae-active-massage</rehab:sourceUrl>
-	<rdfs:label xml:lang="en">Levator Scapulae Active Massage</rdfs:label>
+	<rehab:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Levator Scapulae Active Massage</rehab:hasName>
+	<rehab:sourceUrl>https://www.rehabhero.ca/exercise/levator-scapulae-active-massage</rehab:sourceUrl>
+	<rdfs:label>Levator Scapulae Active Massage</rdfs:label>
 </rdf:Description>
 <!--  -->
 <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#LongHeadBicepsBrachii -->
@@ -2830,19 +2894,19 @@
 <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Lumbar_Cat_Camel -->
 
 <rdf:Description rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Lumbar_Cat_Camel">
-  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-  <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Exercise"/>
-  <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Mobility"/>
-  <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Easy"/>
-  <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
-  <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Senior"/>
-  <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Backache"/>
-  <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#MusclePain"/>
-  <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Back"/>
-  <rehab:hasInstructionURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.rehabhero.ca/exercise/lumbar-cat-cow</rehab:hasInstructionURL>
-  <rehab:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lumbar Cat Camel</rehab:hasName>
-  <rehab:sourceUrl>https://www.rehabhero.ca/exercise/lumbar-cat-cow</rehab:sourceUrl>
-  <rdfs:label>Lumbar Cat Camel</rdfs:label>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Exercise"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Lumbar_Mobility"/>
+	<rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Easy"/>
+	<rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
+	<rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Senior"/>
+	<rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Backache"/>
+	<rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Back"/>
+	<rehab:hasDuration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</rehab:hasDuration>
+	<rehab:hasInstructionURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.rehabhero.ca/exercise/lumbar-cat-cow</rehab:hasInstructionURL>
+	<rehab:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lumbar Cat Camel</rehab:hasName>
+	<rehab:sourceUrl>https://www.rehabhero.ca/exercise/lumbar-cat-cow</rehab:sourceUrl>
+	<rdfs:label>Lumbar Cat Camel</rdfs:label>
 </rdf:Description>
 
 <!--  -->
@@ -3040,11 +3104,19 @@
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </rdf:Description>
 
+<!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#PNF_Hip_Abductor_Stretch -->
 <rdf:Description rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#PNF_Hip_Abductor_Stretch">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Exercise"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Hip_Flexibility"/>
+	<rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Advanced"/>
+	<rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
+	<rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#HipPain"/>
+	<rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Hip"/>
 	<rehab:hasInstructionURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.rehabhero.ca/exercise/pnf-abductor-stretch-tCOgi</rehab:hasInstructionURL>
-	<rehab:hasName>PNF Hip Abductor Stretch</rehab:hasName>
-	<rehab:sourceUrl rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.rehabhero.ca/exercise/pnf-abductor-stretch-tCOgi</rehab:sourceUrl>
-	<rdfs:label xml:lang="en">PNF Hip Abductor Stretch</rdfs:label>
+	<rehab:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PNF Hip Abductor Stretch</rehab:hasName>
+	<rehab:sourceUrl>https://www.rehabhero.ca/exercise/pnf-abductor-stretch-tCOgi</rehab:sourceUrl>
+	<rdfs:label>PNF Hip Abductor Stretch</rdfs:label>
 </rdf:Description>
 <!--  -->
 <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#PatellarTendinitis -->
@@ -3108,26 +3180,23 @@
 <!--  -->
 <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#PosteriorShoulderImpingement -->
 <!--  -->
-<!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Posterior_Deltoid_Massage -->
 
+<!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Posterior_Deltoid_Massage -->
 <rdf:Description rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Posterior_Deltoid_Massage">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 	<rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Exercise"/>
-	<rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Flexibility"/>
-	<rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Massage"/>
-	<rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#DynamicShoulderInstability"/>
-	<rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#PosteriorCapsuleImpingement"/>
-	<rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#PosteriorDeltoidStrain"/>
-	<rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#RotatorCuffTendinitis"/>
-	<rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#ShoulderImpingement"/>
-	<rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Infraspinatus"/>
-	<rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#PosteriorDeltoid"/>
-	<rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#PosteriorShoulderCapsule"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Shoulder_Massage"/>
+	<rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Easy"/>
+	<rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
+	<rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Senior"/>
+	<rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#MusclePain"/>
+	<rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Shoulder"/>
 	<rehab:hasInstructionURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.rehabhero.ca/exercise/posterior-deltoid-massage</rehab:hasInstructionURL>
-	<rehab:hasName>Posterior Deltoid Massage</rehab:hasName>
-	<rehab:sourceUrl rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.rehabhero.ca/exercise/posterior-deltoid-massage</rehab:sourceUrl>
-	<rdfs:label xml:lang="en">Posterior Deltoid Massage</rdfs:label>
+	<rehab:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Posterior Deltoid Massage</rehab:hasName>
+	<rehab:sourceUrl>https://www.rehabhero.ca/exercise/posterior-deltoid-massage</rehab:sourceUrl>
+	<rdfs:label>Posterior Deltoid Massage</rdfs:label>
 </rdf:Description>
+
 <!--  -->
 <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Prisoner_Rotation -->
 
@@ -3234,20 +3303,25 @@
 </rdf:Description>
 
 <!--  -->
+
+<!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#QL_Foam_Rolling -->
 <rdf:Description rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#QL_Foam_Rolling">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Exercise"/>
-    <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Lumbar_Massage"/>
-    <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Easy"/>
-    <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
-    <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Senior"/>
-    <rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Backache"/>
-    <rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Lower_Back"/>
-    <rehab:hasEquipmentRequirement>Foam Roller</rehab:hasEquipmentRequirement>
-    <rehab:hasInstructionURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.rehabhero.ca/exercise/quadratus-lumborum-foam-roll</rehab:hasInstructionURL>
-    <rehab:hasName>QL Foam Rolling</rehab:hasName>
-    <rehab:sourceUrl>https://www.rehabhero.ca/exercise/quadratus-lumborum-foam-roll</rehab:sourceUrl>
-    <rdfs:label>QL Foam Rolling</rdfs:label>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Exercise"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Lumbar_Massage"/>
+	<rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Easy"/>
+	<rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
+	<rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Senior"/>
+	<rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Backache"/>
+	<rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#MusclePain"/>
+	<rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Back"/>
+	<rehab:hasDuration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">60</rehab:hasDuration>
+	<rehab:hasRepetitions rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</rehab:hasRepetitions>
+	<rehab:hasEquipmentRequirement rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Foam Roller</rehab:hasEquipmentRequirement>
+	<rehab:hasInstructionURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.rehabhero.ca/exercise/quadratus-lumborum-foam-roll</rehab:hasInstructionURL>
+	<rehab:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">QL Foam Rolling</rehab:hasName>
+	<rehab:sourceUrl>https://www.rehabhero.ca/exercise/quadratus-lumborum-foam-roll</rehab:sourceUrl>
+	<rdfs:label>QL Foam Rolling</rdfs:label>
 </rdf:Description>
 <!--  -->
 <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#QuadratusFemoris -->
@@ -3675,15 +3749,19 @@
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 </rdf:Description>
 
+<!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Side_Lying_Neck_Rotation -->
 <rdf:Description rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Side_Lying_Neck_Rotation">
-	<rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#LevatorScapulae"/>
-	<rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Scalenes"/>
-	<rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Sternocleidomastoid"/>
-	<rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#UpperTrapezius"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Exercise"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Cervical_Strengthening"/>
+	<rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Intermediate"/>
+	<rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
+	<rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#NeckPain"/>
+	<rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Neck"/>
 	<rehab:hasInstructionURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.rehabhero.ca/exercise/side-lying-neck-rotation</rehab:hasInstructionURL>
-	<rehab:hasName>Side Lying Neck Rotation</rehab:hasName>
-	<rehab:sourceUrl rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.rehabhero.ca/exercise/side-lying-neck-rotation</rehab:sourceUrl>
-	<rdfs:label xml:lang="en">Side Lying Neck Rotation</rdfs:label>
+	<rehab:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Side Lying Neck Rotation</rehab:hasName>
+	<rehab:sourceUrl>https://www.rehabhero.ca/exercise/side-lying-neck-rotation</rehab:sourceUrl>
+	<rdfs:label>Side Lying Neck Rotation</rdfs:label>
 </rdf:Description>
 <!--  -->
 <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Side_Plank_Row -->
@@ -3736,18 +3814,17 @@
 <rdf:Description rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Sky_Diver">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 	<rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Exercise"/>
-	<rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Strengthening"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Lumbar_Strengthening"/>
 	<rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Intermediate"/>
 	<rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
 	<rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Senior"/>
-	<rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Severe_Joint_Pain"/>
+	<rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Backache"/>
+	<rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#MusclePain"/>
 	<rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Back"/>
-	<rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Shoulder"/>
 	<rehab:hasDuration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</rehab:hasDuration>
-	<rehab:hasEquipmentRequirement rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Weights</rehab:hasEquipmentRequirement>
+	<rehab:hasRepetitions rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</rehab:hasRepetitions>
 	<rehab:hasInstructionURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.rehabhero.ca/exercise/sky-diver</rehab:hasInstructionURL>
 	<rehab:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sky Diver</rehab:hasName>
-	<rehab:hasRepetitions rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</rehab:hasRepetitions>
 	<rehab:sourceUrl>https://www.rehabhero.ca/exercise/sky-diver</rehab:sourceUrl>
 	<rdfs:label>Sky Diver</rdfs:label>
 </rdf:Description>
@@ -3789,24 +3866,18 @@
 </rdf:Description>
 <!--  -->
 <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Spinal_Accessory_Nerve_Flossing -->
-
 <rdf:Description rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Spinal_Accessory_Nerve_Flossing">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 	<rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Exercise"/>
-	<rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Mobility"/>
-	<rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#CervicogenicHeadache"/>
-	<rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#MyofascialHeadache"/>
-	<rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#SpinalAccessoryNerveEntrapment"/>
-	<rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#TextNeck"/>
-	<rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#UpperCrossSyndrome"/>
-	<rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#UpperTrapeziusMyalgia"/>
-	<rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#SpinalAccessoryNerve"/>
-	<rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Sternocleidomastoid"/>
-	<rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#UpperTrapezius"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Cervical_Mobility"/>
+	<rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Intermediate"/>
+	<rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
+	<rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#NeckPain"/>
+	<rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Neck"/>
 	<rehab:hasInstructionURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.rehabhero.ca/exercise/spinal-accessory-nerve-flossing</rehab:hasInstructionURL>
-	<rehab:hasName>Spinal Accessory Nerve Flossing</rehab:hasName>
-	<rehab:sourceUrl rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.rehabhero.ca/exercise/spinal-accessory-nerve-flossing</rehab:sourceUrl>
-	<rdfs:label xml:lang="en">Spinal Accessory Nerve Flossing</rdfs:label>
+	<rehab:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spinal Accessory Nerve Flossing</rehab:hasName>
+	<rehab:sourceUrl>https://www.rehabhero.ca/exercise/spinal-accessory-nerve-flossing</rehab:sourceUrl>
+	<rdfs:label>Spinal Accessory Nerve Flossing</rdfs:label>
 </rdf:Description>
 <!--  -->
 <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#SpleniusCapitis -->
@@ -3999,44 +4070,36 @@
 </rdf:Description>
 <!--  -->
 <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Swiss_Ball_Neck_Bridge -->
-
 <rdf:Description rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Swiss_Ball_Neck_Bridge">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 	<rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Exercise"/>
-	<rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Stability"/>
-	<rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#ForwardHeadPosture"/>
-	<rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#NeckStrain"/>
-	<rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#SportSpecificTrainingBJJ"/>
-	<rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#TextNeck"/>
-	<rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#UpperCrossSyndrome"/>
-	<rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#LevatorScapulae"/>
-	<rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#SpleniusCapitis"/>
-	<rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#SpleniusCervicis"/>
-	<rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#UpperTrapezius"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Cervical_Stability"/>
+	<rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Intermediate"/>
+	<rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
+	<rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#NeckPain"/>
+	<rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Neck"/>
+	<rehab:hasDuration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</rehab:hasDuration>
 	<rehab:hasInstructionURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.rehabhero.ca/exercise/swiss-ball-neck-bridge</rehab:hasInstructionURL>
-	<rehab:hasName>Swiss Ball Neck Bridge</rehab:hasName>
-	<rehab:sourceUrl rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.rehabhero.ca/exercise/swiss-ball-neck-bridge</rehab:sourceUrl>
-	<rdfs:label xml:lang="en">Swiss Ball Neck Bridge</rdfs:label>
+	<rehab:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Swiss Ball Neck Bridge</rehab:hasName>
+	<rehab:sourceUrl>https://www.rehabhero.ca/exercise/swiss-ball-neck-bridge</rehab:sourceUrl>
+	<rdfs:label>Swiss Ball Neck Bridge</rdfs:label>
 </rdf:Description>
 <!--  -->
 <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Swiss_Ball_Wall_Circles -->
-
 <rdf:Description rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Swiss_Ball_Wall_Circles">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 	<rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Exercise"/>
-	<rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Proprioception"/>
-	<rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#DynamicShoulderInstability"/>
-	<rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#GlenohumeralLabralTear"/>
-	<rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#PosteriorCapsuleImpingement"/>
-	<rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#RotatorCuffTendinitis"/>
-	<rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#ShoulderInstability"/>
-	<rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#SubacromialImpingement"/>
-	<rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#RotatorCuff"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Shoulder_Proprioception"/>
+	<rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Easy"/>
+	<rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Senior"/>
+	<rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#MusclePain"/>
+	<rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Shoulder"/>
 	<rehab:hasInstructionURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.rehabhero.ca/exercise/swiss-ball-wall-circle</rehab:hasInstructionURL>
-	<rehab:hasName>Swiss Ball Wall Circles</rehab:hasName>
-	<rehab:sourceUrl rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.rehabhero.ca/exercise/swiss-ball-wall-circle</rehab:sourceUrl>
-	<rdfs:label xml:lang="en">Swiss Ball Wall Circles</rdfs:label>
+	<rehab:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Swiss Ball Wall Circles</rehab:hasName>
+	<rehab:sourceUrl>https://www.rehabhero.ca/exercise/swiss-ball-wall-circle</rehab:sourceUrl>
+	<rdfs:label>Swiss Ball Wall Circles</rdfs:label>
 </rdf:Description>
+
 <!--  -->
 <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#TFCCTear -->
 <!--  -->
@@ -4307,22 +4370,20 @@
 </rdf:Description>
 <!--  -->
 <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Upper_Trapezius_Active_Massage -->
-
 <rdf:Description rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Upper_Trapezius_Active_Massage">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 	<rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Exercise"/>
-	<rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Massage"/>
-	<rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#CervicogenicHeadaches"/>
-	<rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#MyofascialPainSyndromeOfUpperTrapezius"/>
-	<rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#TextNeck"/>
-	<rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#UpperTrapeziusStrain"/>
-	<rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#UpperTrapezius"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Cervical_Massage"/>
+	<rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Easy"/>
+	<rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
+	<rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#NeckPain"/>
+	<rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Neck"/>
 	<rehab:hasInstructionURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.rehabhero.ca/exercise/doorway-upper-trapezius-active-release</rehab:hasInstructionURL>
-	<rehab:hasName>Upper Trapezius Active Massage</rehab:hasName>
-	<rehab:sourceUrl rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.rehabhero.ca/exercise/doorway-upper-trapezius-active-release</rehab:sourceUrl>
-	<rdfs:label xml:lang="en">Upper Trapezius Active Massage</rdfs:label>
+	<rehab:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Upper Trapezius Active Massage</rehab:hasName>
+	<rehab:sourceUrl>https://www.rehabhero.ca/exercise/doorway-upper-trapezius-active-release</rehab:sourceUrl>
+	<rdfs:label>Upper Trapezius Active Massage</rdfs:label>
 </rdf:Description>
-<!--  -->
+
 <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#VastusIntermedius -->
 <!--  -->
 <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#VastusLateralis -->
@@ -4355,21 +4416,20 @@
 <rdf:Description rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Wall_Lumbar_Extension">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
 	<rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Exercise"/>
-	<rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Flexibility"/>
+	<rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Lumbar_Flexibility"/>
 	<rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Easy"/>
 	<rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
 	<rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Senior"/>
-	<rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Severe_Joint_Pain"/>
+	<rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Backache"/>
+	<rehab:relieves rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#MusclePain"/>
 	<rehab:targets rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Back"/>
-	<rehab:hasDuration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">120</rehab:hasDuration>
-	<rehab:hasEquipmentRequirement rdf:datatype="http://www.w3.org/2001/XMLSchema#string">None</rehab:hasEquipmentRequirement>
+	<rehab:hasDuration rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">60</rehab:hasDuration>
+	<rehab:hasRepetitions rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</rehab:hasRepetitions>
 	<rehab:hasInstructionURL rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.rehabhero.ca/exercise/wall-lumbar-extension</rehab:hasInstructionURL>
 	<rehab:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wall Lumbar Extension</rehab:hasName>
-	<rehab:hasRepetitions rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</rehab:hasRepetitions>
 	<rehab:sourceUrl>https://www.rehabhero.ca/exercise/wall-lumbar-extension</rehab:sourceUrl>
 	<rdfs:label>Wall Lumbar Extension</rdfs:label>
 </rdf:Description>
-
 <!--  -->
 <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Wall_Thoracic_Extension -->
 

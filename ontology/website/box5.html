@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>box5</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 0;
+      padding: 40px 20px;
+        background: linear-gradient(135deg, #91e3f6, #a1c4fd, #91e3f6) fixed;
+        background-size: cover;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    h1, h2 {
+      margin: 10px 0;
+    }
+
+    h2 {
+      color: rgb(25, 50, 96);
+    }
+
+    img {
+      width: 200px;
+      height: 200px;
+      object-fit: cover;     /* Ensures image fills container */
+      border-radius: 50%;    /* Circle shape */
+      border: 5px solid #fff;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+      margin: 25px 0;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+      justify-items: center;
+      margin-top: 40px;
+    }
+
+    .grid > a {
+      text-decoration: none;
+      color: inherit;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="./logo.png" alt="Logo">
+    <h2>Select an Exercise</h2>
+  </div>
+
+  <!-- Dropdown menu with the queries -->
+    <div>
+          <!-- When selecting a perosn, the 'displayDifficulty' fuction is called -->
+        <select id="dropdown" onchange="displayDifficulty()">
+            <!-- Default Option -->
+            <option value="default">Select an Exercise</option>
+        </select>
+    </div>
+
+    <div>
+        <p id="difficulty"><!-- Difficulty of the selected person will be added dynamically here --></p>
+    </div>
+
+    <script>
+    function cleanName(name) {
+        return name.replace(/[^a-zA-Z0-9_-]/g, '_');
+    }
+
+    function displayDifficulty() {
+        const dropdown = document.getElementById('dropdown');
+        const selectedValue = dropdown.options[dropdown.selectedIndex].value;
+        const difficultyPhrase = document.getElementById('difficulty');
+
+        if (selectedValue !== 'default') {
+            const cleanedName = cleanName(selectedValue);
+            const difficulty = dropdown.dataset[cleanedName];
+            difficultyPhrase.textContent = 'Difficulty: ' + difficulty;
+        } else {
+            difficultyPhrase.textContent = '';
+        }
+    }
+
+    function handleQueryResults(data) {
+        const exercises = data.results.bindings;
+        const dropdown = document.getElementById('dropdown');
+
+        exercises.forEach(x => {
+            const exercise = cleanName(x.label.value); // Use label, not URI
+            const option = document.createElement('option');
+            option.value = exercise;
+            option.textContent = x.label.value;
+            dropdown.appendChild(option);
+            dropdown.dataset[exercise] = x.difficulty.value;
+        });
+    }
+
+    const endpointUrl = 'https://triplydb.com/DavidPruser/Rehab-Ontology/sparql';
+    const sparqlQuery = `
+        PREFIX rehab: <http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#>
+        PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+        PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+        SELECT DISTINCT ?label ?difficulty
+        WHERE {
+            ?subclass rdfs:subClassOf* rehab:Exercise .
+            ?exercise rdf:type ?subclass ;
+                      rehab:hasDifficulty ?difficulty ;
+                      rdfs:label ?label .
+        }
+    `;
+
+    const queryUrl = endpointUrl + '?query=' + encodeURIComponent(sparqlQuery);
+
+    fetch(queryUrl, {
+        headers: {
+            'Accept': 'application/sparql-results+json'
+        }
+    })
+    .then(response => {
+        if (!response.ok) {
+            throw new Error('Network response was not OK');
+        }
+        return response.json();
+    })
+    .then(handleQueryResults)
+    .catch(error => {
+        console.error('Fetch error:', error);
+    });
+</script>
+</body>
+</html>

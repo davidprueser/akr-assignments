@@ -1035,6 +1035,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Child">
         <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Age"/>
         <rdfs:comment xml:lang="en">People between 6 - 15 years old</rdfs:comment>
+        <rdfs:label xml:lang="en">Child</rdfs:label>
     </owl:NamedIndividual>
     
 

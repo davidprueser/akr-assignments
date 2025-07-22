@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>box5</title>
+  <title>Diseases</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -55,15 +55,15 @@
       <a href="index.html">
           <img src="./logo.png" alt="Logo">
       </a>
-    <h2>Select an Exercise</h2>
+    <h2>Select a Disease</h2>
   </div>
 
   <!-- Dropdown menu with the queries -->
     <div>
           <!-- When selecting a perosn, the 'displayDifficulty' fuction is called -->
-        <select id="dropdown" onchange="displayExerciseInfo()">
+        <select id="dropdown" onchange="displayDiseaseInfo()">
             <!-- Default Option -->
-            <option value="default">Select an Exercise</option>
+            <option value="default">Select a Disease</option>
         </select>
     </div>
 
@@ -78,7 +78,7 @@
 
 function handleQueryResults(data) {
   const dropdown = document.getElementById('dropdown');
-  dropdown.innerHTML = '<option value="default">Select an Exercise</option>';
+  dropdown.innerHTML = '<option value="default">Select a Disease</option>';
 
   data.results.bindings.forEach(row => {
     const label = row.label.value;
@@ -96,7 +96,7 @@ function handleQueryResults(data) {
   });
 }
 
-function displayExerciseInfo() {
+function displayDiseaseInfo() {
   const dropdown = document.getElementById('dropdown');
   const sel = dropdown.value;
   const info = document.getElementById('div');
@@ -127,7 +127,7 @@ function displayExerciseInfo() {
     .catch(console.error);
 
   // attach change handler
-  document.getElementById('dropdown').addEventListener('change', displayExerciseInfo);
+  document.getElementById('dropdown').addEventListener('change', displayDiseaseInfo);
 </script>
 
 </body>

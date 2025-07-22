@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>How many Exercises are there for MuscleGroup</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 0;
+      padding: 40px 20px;
+        background: linear-gradient(135deg, #91e3f6, #a1c4fd, #91e3f6) fixed;
+        background-size: cover;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    h1, h2 {
+      margin: 10px 0;
+    }
+
+    h2 {
+      color: rgb(25, 50, 96);
+    }
+
+    img {
+      width: 200px;
+      height: 200px;
+      object-fit: cover;     /* Ensures image fills container */
+      border-radius: 50%;    /* Circle shape */
+      border: 5px solid #fff;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+      margin: 25px 0;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+      justify-items: center;
+      margin-top: 40px;
+    }
+
+    .grid > a {
+      text-decoration: none;
+      color: inherit;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <a href="index.html">
+      <img src="./logo.png" alt="Logo">
+    </a>
+    <h2>Select a Muscle Group</h2>
+  </div>
+
+  <!-- Dropdown for Muscle Groups -->
+  <div>
+    <select id="dropdown" onchange="displayExerciseCount()">
+      <option value="default">Select a Muscle Group</option>
+    </select>
+  </div>
+
+  <div>
+    <p id="info"><!-- Exercise count will appear here --></p>
+  </div>
+
+<script>
+  function cleanName(name) {
+    return name.replace(/[^a-zA-Z0-9_-]/g, '_');
+  }
+
+  function handleMuscleGroupResults(data) {
+    const dropdown = document.getElementById('dropdown');
+    dropdown.innerHTML = '<option value="default">Select a Muscle Group</option>';
+
+    data.results.bindings.forEach(row => {
+      const label = row.label.value;
+      const key = cleanName(label);
+
+      const opt = document.createElement('option');
+      opt.value = key;
+      opt.textContent = label;
+      dropdown.appendChild(opt);
+
+      dropdown.dataset[key + '_label'] = label;
+    });
+  }
+
+  function displayExerciseCount() {
+    const dropdown = document.getElementById('dropdown');
+    const selected = dropdown.value;
+    const info = document.getElementById('info');
+
+    if (selected === 'default') {
+      info.textContent = '';
+      return;
+    }
+
+    const label = dropdown.dataset[selected + '_label'];
+    const encodedMuscle = encodeURIComponent(label.replace(/\s+/g, ''));
+    const apiUrl = `https://api.triplydb.com/queries/MohammadAswad/CountingQuestion1-1-1/1/run?muscleGroup=http%3A%2F%2Fwww.semanticweb.org%2Fdprueser%2Fontologies%2F2025%2F4%2Frehab-exercises%23${encodedMuscle}`;
+
+    fetch(apiUrl, {
+      headers: { 'Accept': 'application/sparql-results+json' }
+    })
+    .then(res => res.ok ? res.json() : Promise.reject(res.statusText))
+    .then(data => {
+      const bindings = data.results.bindings;
+      if (bindings.length === 0 || !bindings[0].count) {
+        info.textContent = `No exercise data found for ${label}.`;
+        return;
+      }
+
+      const count = bindings[0].count.value;
+      info.innerHTML = `<strong>${label}</strong><br><br><strong>Related Exercises:</strong> ${count}`;
+    })
+    .catch(err => {
+      console.error('Error fetching exercise count:', err);
+      info.innerHTML = `<p>Error fetching data.</p>`;
+    });
+  }
+
+  // Load muscle groups into dropdown
+  const muscleGroupApi = 'https://api.triplydb.com/queries/MohammadAswad/All-Muscles/1/run';
+  fetch(muscleGroupApi, {
+    headers: { 'Accept': 'application/sparql-results+json' }
+  })
+  .then(res => res.ok ? res.json() : Promise.reject(res.statusText))
+  .then(handleMuscleGroupResults)
+  .catch(console.error);
+
+  document.getElementById('dropdown').addEventListener('change', displayExerciseCount);
+</script>
+
+</body>
+</html>

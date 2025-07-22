@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Exercises for specific Disease</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 0;
+      padding: 40px 20px;
+        background: linear-gradient(135deg, #91e3f6, #a1c4fd, #91e3f6) fixed;
+        background-size: cover;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    h1, h2 {
+      margin: 10px 0;
+    }
+
+    h2 {
+      color: rgb(25, 50, 96);
+    }
+
+    img {
+      width: 200px;
+      height: 200px;
+      object-fit: cover;     /* Ensures image fills container */
+      border-radius: 50%;    /* Circle shape */
+      border: 5px solid #fff;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+      margin: 25px 0;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+      justify-items: center;
+      margin-top: 40px;
+    }
+
+    .grid > a {
+      text-decoration: none;
+      color: inherit;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <a href="index.html">
+      <img src="./logo.png" alt="Logo">
+    </a>
+    <h2>Select a Disease</h2>
+  </div>
+
+  <!-- Dropdown for Diseases -->
+  <div>
+    <select id="dropdown" onchange="displayExerciseInfo()">
+      <option value="default">Select a Disease</option>
+    </select>
+  </div>
+
+  <!-- Output Section -->
+  <div>
+    <p id="info"><!-- Related exercises will appear here --></p>
+  </div>
+
+<script>
+  function cleanName(name) {
+    return name.replace(/[^a-zA-Z0-9_-]/g, '_');
+  }
+
+  function handleDiseaseResults(data) {
+    const dropdown = document.getElementById('dropdown');
+    dropdown.innerHTML = '<option value="default">Select a Disease</option>';
+
+    data.results.bindings.forEach(row => {
+      const label = row.label.value;
+      const key = cleanName(label);
+
+      const opt = document.createElement('option');
+      opt.value = key;
+      opt.textContent = label;
+      dropdown.appendChild(opt);
+
+      dropdown.dataset[key + '_label'] = label;
+    });
+  }
+
+  function displayExerciseInfo() {
+    const dropdown = document.getElementById('dropdown');
+    const selected = dropdown.value;
+    const info = document.getElementById('info');
+
+    if (selected === 'default') {
+      info.textContent = '';
+      return;
+    }
+
+    const d = dropdown.dataset;
+    const label = d[selected + '_label'];
+    const encodedDisease = encodeURIComponent(label.replace(/\s+/g, ''));
+
+    const apiUrl = `https://api.triplydb.com/queries/MohammadAswad/DiseaseToSymptomToExercise/1/run?disease=http%3A%2F%2Fwww.semanticweb.org%2Fdprueser%2Fontologies%2F2025%2F4%2Frehab-exercises%23${encodedDisease}`;
+
+    fetch(apiUrl, {
+      headers: { 'Accept': 'application/sparql-results+json' }
+    })
+    .then(res => res.ok ? res.json() : Promise.reject(res.statusText))
+    .then(data => {
+      const exercises = data.results.bindings.map(row => row.label.value);
+
+      if (exercises.length === 0) {
+        info.innerHTML = `<strong>${label}</strong><br><br>No exercises associated.`;
+      } else {
+        const exerciseLines = exercises.map(e => `<div>${e}</div>`).join('');
+        info.innerHTML = `<strong>${label}</strong><br><br><strong>Related Exercises:</strong><br>${exerciseLines}`;
+      }
+    })
+    .catch(err => {
+      console.error('Error fetching exercises:', err);
+      info.innerHTML = `<p>Error fetching exercises.</p>`;
+    });
+  }
+
+  // Load diseases into dropdown
+  const diseaseApi = 'https://api.triplydb.com/queries/DavidPruser/All-Diseases/1/run';
+  fetch(diseaseApi, {
+    headers: { 'Accept': 'application/sparql-results+json' }
+  })
+  .then(res => res.ok ? res.json() : Promise.reject(res.statusText))
+  .then(handleDiseaseResults)
+  .catch(console.error);
+
+  document.getElementById('dropdown').addEventListener('change', displayExerciseInfo);
+</script>
+
+</body>
+</html>

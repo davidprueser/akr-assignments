@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Difficulty of an Exercise</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 0;
+      padding: 40px 20px;
+        background: linear-gradient(135deg, #91e3f6, #a1c4fd, #91e3f6) fixed;
+        background-size: cover;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    h1, h2 {
+      margin: 10px 0;
+    }
+
+    h2 {
+      color: rgb(25, 50, 96);
+    }
+
+    img {
+      width: 200px;
+      height: 200px;
+      object-fit: cover;     /* Ensures image fills container */
+      border-radius: 50%;    /* Circle shape */
+      border: 5px solid #fff;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+      margin: 25px 0;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+      justify-items: center;
+      margin-top: 40px;
+    }
+
+    .grid > a {
+      text-decoration: none;
+      color: inherit;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <a href="index.html">
+      <img src="./logo.png" alt="Logo">
+    </a>
+    <h2>Select an Exercise</h2>
+  </div>
+
+  <!-- Dropdown menu for exercises -->
+  <div>
+    <select id="dropdown" onchange="displayExerciseInfo()">
+      <option value="default">Select an Exercise</option>
+    </select>
+  </div>
+
+  <div>
+    <p id="info"><!-- Difficulty will appear here --></p>
+  </div>
+
+<script>
+  function cleanName(name) {
+    return name.replace(/[^a-zA-Z0-9_-]/g, '_');
+  }
+
+  function handleQueryResults(data) {
+    const dropdown = document.getElementById('dropdown');
+    dropdown.innerHTML = '<option value="default">Select an Exercise</option>';
+
+    data.results.bindings.forEach(row => {
+      const label = row.label.value;
+      const key = cleanName(label);
+
+      const opt = document.createElement('option');
+      opt.value = key;
+      opt.textContent = label;
+      dropdown.appendChild(opt);
+
+      dropdown.dataset[key + '_label'] = label;
+      dropdown.dataset[key + '_difficulty'] = row.difficulty?.value || '—';
+    });
+  }
+
+  function displayExerciseInfo() {
+    const dropdown = document.getElementById('dropdown');
+    const selected = dropdown.value;
+    const info = document.getElementById('info');
+
+    if (selected === 'default') {
+      info.textContent = '';
+      return;
+    }
+
+    const d = dropdown.dataset;
+    const label = d[selected + '_label'];
+    let difficulty = d[selected + '_difficulty'];
+
+    // Extract the last part after # or /
+    if (difficulty.includes('#')) {
+      difficulty = difficulty.split('#').pop();
+    } else {
+      difficulty = difficulty.split('/').pop();
+    }
+
+    info.innerHTML =
+      `<strong>${label}</strong><br><br>` +
+      `<strong>Difficulty:</strong> ${difficulty}`;
+  }
+
+
+  // Fetch exercise data from TriplyDB
+  const apiUrl = 'https://api.triplydb.com/queries/DavidPruser/ExerciseToDifficulty/1/run';
+  fetch(apiUrl, { headers: { 'Accept': 'application/sparql-results+json' } })
+    .then(response => response.ok ? response.json() : Promise.reject(response.statusText))
+    .then(handleQueryResults)
+    .catch(console.error);
+
+  // Attach event listener just in case
+  document.getElementById('dropdown').addEventListener('change', displayExerciseInfo);
+</script>
+
+</body>
+</html>

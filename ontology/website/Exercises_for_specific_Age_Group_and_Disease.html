@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Exercises for specific Age Group_and Disease</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 0;
+      padding: 40px 20px;
+        background: linear-gradient(135deg, #91e3f6, #a1c4fd, #91e3f6) fixed;
+        background-size: cover;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    h1, h2 {
+      margin: 10px 0;
+    }
+
+    h2 {
+      color: rgb(25, 50, 96);
+    }
+
+    img {
+      width: 200px;
+      height: 200px;
+      object-fit: cover;     /* Ensures image fills container */
+      border-radius: 50%;    /* Circle shape */
+      border: 5px solid #fff;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+      margin: 25px 0;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+      justify-items: center;
+      margin-top: 40px;
+    }
+
+    .grid > a {
+      text-decoration: none;
+      color: inherit;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <a href="index.html">
+    <img src="./logo.png" alt="Logo">
+  </a>
+
+  <h2>Select a Disease and Age Group</h2>
+
+  <div class="dropdown-row">
+    <select id="diseaseDropdown">
+      <option value="default">Select Disease</option>
+    </select>
+
+    <select id="ageDropdown">
+      <option value="default">Select Age Group</option>
+    </select>
+
+    <button onclick="fetchExercises()">Find Exercises</button>
+  </div>
+
+  <div id="result"></div>
+</div>
+
+<script>
+  function cleanName(name) {
+    return name.replace(/[^a-zA-Z0-9_-]/g, '_');
+  }
+
+  function populateDropdown(data, dropdownId) {
+    const dropdown = document.getElementById(dropdownId);
+    data.results.bindings.forEach(row => {
+      const label = row.label.value;
+      const key = cleanName(label);
+
+      const option = document.createElement('option');
+      option.value = key;
+      option.textContent = label;
+      dropdown.appendChild(option);
+
+      dropdown.dataset[key + '_label'] = label;
+    });
+  }
+
+  function fetchExercises() {
+    const diseaseDropdown = document.getElementById('diseaseDropdown');
+    const ageDropdown = document.getElementById('ageDropdown');
+    const resultDiv = document.getElementById('result');
+
+    const diseaseVal = diseaseDropdown.value;
+    const ageVal = ageDropdown.value;
+
+    if (diseaseVal === 'default' || ageVal === 'default') {
+      resultDiv.textContent = 'Please select both a disease and an age group.';
+      return;
+    }
+
+    const diseaseLabel = diseaseDropdown.dataset[diseaseVal + '_label'];
+    const ageLabel = ageDropdown.dataset[ageVal + '_label'];
+
+    const encodedDisease = encodeURIComponent(diseaseLabel.replace(/\s+/g, ''));
+    const encodedAge = encodeURIComponent(ageLabel.replace(/\s+/g, ''));
+
+    const apiUrl = `https://api.triplydb.com/queries/MohammadAswad/DiseaseToExercise/1/run?disease=http%3A%2F%2Fwww.semanticweb.org%2Fdprueser%2Fontologies%2F2025%2F4%2Frehab-exercises%23${encodedDisease}&age=http%3A%2F%2Fwww.semanticweb.org%2Fdprueser%2Fontologies%2F2025%2F4%2Frehab-exercises%23${encodedAge}`;
+
+    fetch(apiUrl, {
+      headers: { 'Accept': 'application/sparql-results+json' }
+    })
+    .then(res => res.ok ? res.json() : Promise.reject(res.statusText))
+    .then(data => {
+      const bindings = data.results.bindings;
+      if (bindings.length === 0) {
+        resultDiv.innerHTML = `<p>No suitable exercises found for <strong>${diseaseLabel}</strong> in the <strong>${ageLabel}</strong> age group.</p>`;
+        return;
+      }
+
+      const list = bindings.map(row => `<div>${row.label.value}</div>`).join('');
+      resultDiv.innerHTML = `<p><strong>Exercises for ${diseaseLabel} (${ageLabel}):</strong></p>${list}`;
+    })
+    .catch(err => {
+      console.error('Error fetching exercises:', err);
+      resultDiv.innerHTML = `<p>Error retrieving exercises.</p>`;
+    });
+  }
+
+  // Load dropdown options
+  const diseaseApi = 'https://api.triplydb.com/queries/DavidPruser/All-Diseases/1/run';
+  const ageApi = 'https://api.triplydb.com/queries/MohammadAswad/All-Ages-1/2/run';
+
+  fetch(diseaseApi, {
+    headers: { 'Accept': 'application/sparql-results+json' }
+  })
+  .then(res => res.ok ? res.json() : Promise.reject(res.statusText))
+  .then(data => populateDropdown(data, 'diseaseDropdown'))
+  .catch(console.error);
+
+  fetch(ageApi, {
+    headers: { 'Accept': 'application/sparql-results+json' }
+  })
+  .then(res => res.ok ? res.json() : Promise.reject(res.statusText))
+  .then(data => populateDropdown(data, 'ageDropdown'))
+  .catch(console.error);
+</script>
+
+</body>
+</html>

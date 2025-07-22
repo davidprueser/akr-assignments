@@ -309,6 +309,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#JointPain">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Pain"/>
+        <rdfs:label xml:lang="en">Joint Pain</rdfs:label>
     </owl:Class>
     
 
@@ -511,7 +512,6 @@
     <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Anti-Shift_Squat -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Anti-Shift_Squat">
-        <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Exercise"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Stability"/>
         <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Easy"/>
         <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
@@ -589,7 +589,6 @@
     <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Back_Extension_Dowel_Press -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Back_Extension_Dowel_Press">
-        <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Exercise"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Strengthening"/>
         <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Intermediate"/>
         <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
@@ -622,7 +621,6 @@
     <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Band_Assisted_Thoracic_Extension -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Band_Assisted_Thoracic_Extension">
-        <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Exercise"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Stretches"/>
         <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Easy"/>
         <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
@@ -645,7 +643,6 @@
     <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Band_Assisted_Thoracic_Rotation -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Band_Assisted_Thoracic_Rotation">
-        <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Exercise"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Stretches"/>
         <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Intermediate"/>
         <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
@@ -670,7 +667,6 @@
     <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Band_Assisted_Thread_the_Needle -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Band_Assisted_Thread_the_Needle">
-        <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Exercise"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Stretches"/>
         <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Intermediate"/>
         <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
@@ -694,7 +690,6 @@
     <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Banded_Angels -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Banded_Angels">
-        <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Exercise"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Strengthening"/>
         <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Intermediate"/>
         <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
@@ -716,7 +711,6 @@
     <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Banded_B_Stance_Squat -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Banded_B_Stance_Squat">
-        <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Exercise"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Strengthening"/>
         <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Hard"/>
         <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
@@ -738,7 +732,6 @@
     <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Banded_First_Rib_Head_Tilt -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Banded_First_Rib_Head_Tilt">
-        <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Exercise"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Mobility"/>
         <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Easy"/>
         <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
@@ -762,7 +755,6 @@
     <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Banded_Rib_Mobilization -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Banded_Rib_Mobilization">
-        <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Exercise"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Mobility"/>
         <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Easy"/>
         <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
@@ -786,7 +778,6 @@
     <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Banded_Scapular_Roll -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Banded_Scapular_Roll">
-        <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Exercise"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Strengthening"/>
         <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Hard"/>
         <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
@@ -810,7 +801,6 @@
     <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Banded_Straight_Arm_Pulldown -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Banded_Straight_Arm_Pulldown">
-        <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Exercise"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Strengthening"/>
         <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Easy"/>
         <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
@@ -832,7 +822,6 @@
     <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Bench_Supported_High_Row -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Bench_Supported_High_Row">
-        <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Exercise"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Strengthening"/>
         <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Intermediate"/>
         <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
@@ -854,7 +843,6 @@
     <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Bench_Supported_Row -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Bench_Supported_Row">
-        <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Exercise"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Strengthening"/>
         <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Intermediate"/>
         <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
@@ -877,7 +865,6 @@
     <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Bench_Thoracic_Extension -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Bench_Thoracic_Extension">
-        <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Exercise"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Stretches"/>
         <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Easy"/>
         <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
@@ -901,7 +888,6 @@
     <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Bent-Over_Row -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Bent-Over_Row">
-        <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Exercise"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Strengthening"/>
         <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Intermediate"/>
         <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
@@ -935,7 +921,6 @@
     <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Biceps_Active_Massage -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Biceps_Active_Massage">
-        <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Exercise"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Massage"/>
         <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Easy"/>
         <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
@@ -988,7 +973,6 @@
     <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Bulgarian_Split_Squat_Calf_Raise -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Bulgarian_Split_Squat_Calf_Raise">
-        <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Exercise"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Stability"/>
         <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Intermediate"/>
         <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
@@ -1071,7 +1055,6 @@
     <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Clock_Lunge -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Clock_Lunge">
-        <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Exercise"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Flexibility"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Strengthening"/>
         <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Easy"/>
@@ -1093,7 +1076,6 @@
     <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Desk_Thread_the_Needle -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Desk_Thread_the_Needle">
-        <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Exercise"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Mobility"/>
         <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Hard"/>
         <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
@@ -1118,7 +1100,6 @@
     <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Doorway_Lean_Back -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Doorway_Lean_Back">
-        <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Exercise"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Stretches"/>
         <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Easy"/>
         <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
@@ -1139,7 +1120,6 @@
     <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Doorway_Rhomboid_Stretch -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Doorway_Rhomboid_Stretch">
-        <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Exercise"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Stretches"/>
         <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Hard"/>
         <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
@@ -1161,7 +1141,6 @@
     <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Dowel_Floor_Swipe -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Dowel_Floor_Swipe">
-        <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Exercise"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Stretches"/>
         <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Hard"/>
         <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
@@ -1183,7 +1162,6 @@
     <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Dowel_Toe_Tap -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Dowel_Toe_Tap">
-        <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Exercise"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Stretches"/>
         <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Hard"/>
         <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
@@ -1206,7 +1184,6 @@
     <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Dumbbell_Scapular_Circle -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Dumbbell_Scapular_Circle">
-        <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Exercise"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Strengthening"/>
         <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Intermediate"/>
         <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
@@ -1276,7 +1253,6 @@
     <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Floor_Taps -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Floor_Taps">
-        <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Exercise"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Proprioception"/>
         <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Intermediate"/>
         <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
@@ -1298,7 +1274,6 @@
     <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Foam_Roller_Extensions -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Foam_Roller_Extensions">
-        <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Exercise"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Massage"/>
         <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Hard"/>
         <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
@@ -1324,7 +1299,6 @@
     <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Foam_Roller_Spine_Flexion -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Foam_Roller_Spine_Flexion">
-        <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Exercise"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Mobility"/>
         <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Easy"/>
         <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
@@ -1349,7 +1323,6 @@
     <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Foam_Roller_Thoracic_Extension -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Foam_Roller_Thoracic_Extension">
-        <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Exercise"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Stretches"/>
         <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Intermediate"/>
         <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
@@ -1390,7 +1363,6 @@
     <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Half_Kneel_Archer -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Half_Kneel_Archer">
-        <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Exercise"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Mobility"/>
         <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Easy"/>
         <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
@@ -1414,7 +1386,6 @@
     <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Half_Kneel_Lower_Lat_Pulldown -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Half_Kneel_Lower_Lat_Pulldown">
-        <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Exercise"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Strengthening"/>
         <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Easy"/>
         <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
@@ -1446,7 +1417,6 @@
     <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Hamstrings_Foam_Rolling -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Hamstrings_Foam_Rolling">
-        <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Exercise"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Massage"/>
         <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Easy"/>
         <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
@@ -1501,7 +1471,6 @@
     <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Hercules_Curl -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Hercules_Curl">
-        <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Exercise"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Strengthening"/>
         <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Easy"/>
         <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
@@ -1524,7 +1493,6 @@
     <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Hinge_Squat -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Hinge_Squat">
-        <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Exercise"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#MotorPatterning"/>
         <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Intermediate"/>
         <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
@@ -1557,7 +1525,6 @@
     <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Hip_Flexor_Massage -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Hip_Flexor_Massage">
-        <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Exercise"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Massage"/>
         <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Intermediate"/>
         <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
@@ -1577,7 +1544,6 @@
     <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Incline_Bench_Scapular_Row -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Incline_Bench_Scapular_Row">
-        <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Exercise"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Strengthening"/>
         <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Intermediate"/>
         <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
@@ -1618,7 +1584,6 @@
     <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Irradiated_Shoulder_Extension -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Irradiated_Shoulder_Extension">
-        <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Exercise"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Mobility"/>
         <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Intermediate"/>
         <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
@@ -1652,7 +1617,6 @@
     <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Isometric_Abdominal_Crunch -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Isometric_Abdominal_Crunch">
-        <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Exercise"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Stability"/>
         <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Intermediate"/>
         <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
@@ -1673,7 +1637,6 @@
     <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Isometric_Row_Squats -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Isometric_Row_Squats">
-        <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Exercise"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Stability"/>
         <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Easy"/>
         <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
@@ -1696,7 +1659,6 @@
     <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Kettlebell_Carry_Walk_Neck_Rotation -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Kettlebell_Carry_Walk_Neck_Rotation">
-        <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Exercise"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#MotorPatterning"/>
         <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Hard"/>
         <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
@@ -1730,7 +1692,6 @@
     <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Landmine_Row -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Landmine_Row">
-        <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Exercise"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Strengthening"/>
         <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Hard"/>
         <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
@@ -1754,7 +1715,6 @@
     <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Lat_Pulldown_Slider -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Lat_Pulldown_Slider">
-        <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Exercise"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Stability"/>
         <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Intermediate"/>
         <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
@@ -1774,7 +1734,6 @@
     <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Lat_Stretch_Row -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Lat_Stretch_Row">
-        <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Exercise"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Mobility"/>
         <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Intermediate"/>
         <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
@@ -1797,7 +1756,6 @@
     <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Levator_Scapulae_Active_Massage -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Levator_Scapulae_Active_Massage">
-        <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Exercise"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Flexibility"/>
         <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Easy"/>
         <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
@@ -1820,7 +1778,6 @@
     <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Lower_Lat_Pulldown -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Lower_Lat_Pulldown">
-        <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Exercise"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Strengthening"/>
         <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Intermediate"/>
         <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
@@ -1845,7 +1802,6 @@
     <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Lumbar_Cat_Camel -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Lumbar_Cat_Camel">
-        <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Exercise"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Mobility"/>
         <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Easy"/>
         <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
@@ -1963,7 +1919,6 @@
     <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Open_Book_Windmill -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Open_Book_Windmill">
-        <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Exercise"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Mobility"/>
         <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Easy"/>
         <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
@@ -1986,7 +1941,6 @@
     <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#PNF_Hip_Abductor_Stretch -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#PNF_Hip_Abductor_Stretch">
-        <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Exercise"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Flexibility"/>
         <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Easy"/>
         <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
@@ -2023,7 +1977,6 @@
     <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Posterior_Deltoid_Massage -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Posterior_Deltoid_Massage">
-        <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Exercise"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Flexibility"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Massage"/>
         <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Easy"/>
@@ -2046,7 +1999,6 @@
     <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Prisoner_Rotation -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Prisoner_Rotation">
-        <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Exercise"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Mobility"/>
         <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Intermediate"/>
         <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
@@ -2069,7 +2021,6 @@
     <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Prone_Back_Extension -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Prone_Back_Extension">
-        <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Exercise"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Strengthening"/>
         <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Easy"/>
         <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
@@ -2091,7 +2042,6 @@
     <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Prone_Extension_with_Dowel -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Prone_Extension_with_Dowel">
-        <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Exercise"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Strengthening"/>
         <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Easy"/>
         <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
@@ -2114,7 +2064,6 @@
     <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#QL_Foam_Rolling -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#QL_Foam_Rolling">
-        <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Exercise"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Massage"/>
         <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Easy"/>
         <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
@@ -2146,7 +2095,6 @@
     <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Regressed_Thoracic_Extension -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Regressed_Thoracic_Extension">
-        <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Exercise"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Massage"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Stretches"/>
         <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Intermediate"/>
@@ -2185,7 +2133,6 @@
     <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Rhomboid_Active_Massage -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Rhomboid_Active_Massage">
-        <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Exercise"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Massage"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Strengthening"/>
         <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Easy"/>
@@ -2220,7 +2167,6 @@
     <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Rotation_Wall_Push -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Rotation_Wall_Push">
-        <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Exercise"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Stretches"/>
         <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Easy"/>
         <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
@@ -2242,7 +2188,6 @@
     <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Seated_Band_Assisted_Thoracic_Rotation -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Seated_Band_Assisted_Thoracic_Rotation">
-        <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Exercise"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Stretches"/>
         <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Easy"/>
         <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
@@ -2269,7 +2214,6 @@
     <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Seated_Foam_Roller_Thoracic_Extension -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Seated_Foam_Roller_Thoracic_Extension">
-        <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Exercise"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Stretches"/>
         <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Easy"/>
         <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
@@ -2299,7 +2243,6 @@
     <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Seated_Rhomboid_Stretch -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Seated_Rhomboid_Stretch">
-        <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Exercise"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Stretches"/>
         <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Easy"/>
         <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
@@ -2322,7 +2265,6 @@
     <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Seated_Thoracic_Rotation -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Seated_Thoracic_Rotation">
-        <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Exercise"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Mobility"/>
         <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Intermediate"/>
         <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
@@ -2348,7 +2290,6 @@
     <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Seated_Thoracic_Sprinkler -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Seated_Thoracic_Sprinkler">
-        <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Exercise"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Mobility"/>
         <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Easy"/>
         <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
@@ -2370,7 +2311,6 @@
     <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Segmental_Cat_Cow -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Segmental_Cat_Cow">
-        <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Exercise"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Mobility"/>
         <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Intermediate"/>
         <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
@@ -2394,7 +2334,6 @@
     <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Segmental_Thoracic_Extension -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Segmental_Thoracic_Extension">
-        <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Exercise"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Stretches"/>
         <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Hard"/>
         <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
@@ -2415,7 +2354,6 @@
     <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Segmental_Thoracic_Opener -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Segmental_Thoracic_Opener">
-        <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Exercise"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Mobility"/>
         <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Intermediate"/>
         <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
@@ -2442,7 +2380,6 @@
     <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Segmental_Thoracolumbar_Extension -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Segmental_Thoracolumbar_Extension">
-        <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Exercise"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Stretches"/>
         <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Hard"/>
         <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
@@ -2505,7 +2442,6 @@
     <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Side_Lying_Neck_Rotation -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Side_Lying_Neck_Rotation">
-        <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Exercise"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Strengthening"/>
         <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Easy"/>
         <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
@@ -2526,7 +2462,6 @@
     <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Side_Plank_Row -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Side_Plank_Row">
-        <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Exercise"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Strengthening"/>
         <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Hard"/>
         <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
@@ -2552,7 +2487,6 @@
     <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Single_Arm_Cable_Row -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Single_Arm_Cable_Row">
-        <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Exercise"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Strengthening"/>
         <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Intermediate"/>
         <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
@@ -2574,7 +2508,6 @@
     <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Sky_Diver -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Sky_Diver">
-        <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Exercise"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Strengthening"/>
         <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Intermediate"/>
         <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
@@ -2621,7 +2554,6 @@
     <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Spinal_Accessory_Nerve_Flossing -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Spinal_Accessory_Nerve_Flossing">
-        <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Exercise"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Mobility"/>
         <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Easy"/>
         <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
@@ -2669,7 +2601,6 @@
     <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Squat_and_Row -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Squat_and_Row">
-        <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Exercise"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Strengthening"/>
         <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Easy"/>
         <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
@@ -2693,7 +2624,6 @@
     <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Standing_High_Row -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Standing_High_Row">
-        <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Exercise"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Strengthening"/>
         <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Easy"/>
         <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
@@ -2718,7 +2648,6 @@
     <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Standing_Rhomboids_Stretch -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Standing_Rhomboids_Stretch">
-        <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Exercise"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Stretches"/>
         <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Easy"/>
         <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
@@ -2740,7 +2669,6 @@
     <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Stick_Pronation_Pail -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Stick_Pronation_Pail">
-        <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Exercise"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Flexibility"/>
         <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Intermediate"/>
         <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
@@ -2762,7 +2690,6 @@
     <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Supine_Cable_Pullover -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Supine_Cable_Pullover">
-        <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Exercise"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Strengthening"/>
         <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Hard"/>
         <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
@@ -2785,7 +2712,6 @@
     <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Swiss_Ball_Neck_Bridge -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Swiss_Ball_Neck_Bridge">
-        <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Exercise"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Stability"/>
         <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Hard"/>
         <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
@@ -2811,7 +2737,6 @@
     <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Swiss_Ball_Wall_Circles -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Swiss_Ball_Wall_Circles">
-        <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Exercise"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Proprioception"/>
         <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Intermediate"/>
         <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
@@ -2833,7 +2758,6 @@
     <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Tall_Kneel_Wall_Extension -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Tall_Kneel_Wall_Extension">
-        <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Exercise"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Stretches"/>
         <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Hard"/>
         <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
@@ -2856,7 +2780,6 @@
     <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Thigh_Block_Back_Extension -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Thigh_Block_Back_Extension">
-        <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Exercise"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Mobility"/>
         <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Easy"/>
         <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
@@ -2880,7 +2803,6 @@
     <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Thigh_Block_Full_Extension -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Thigh_Block_Full_Extension">
-        <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Exercise"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Mobility"/>
         <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Easy"/>
         <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
@@ -2903,7 +2825,6 @@
     <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Thoracic_Cat_Camel -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Thoracic_Cat_Camel">
-        <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Exercise"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Mobility"/>
         <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Easy"/>
         <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
@@ -2925,7 +2846,6 @@
     <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Thoracic_Erector_Massage -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Thoracic_Erector_Massage">
-        <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Exercise"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Massage"/>
         <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Hard"/>
         <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
@@ -2948,7 +2868,6 @@
     <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Thoracic_Flexion_Row -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Thoracic_Flexion_Row">
-        <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Exercise"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Strengthening"/>
         <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Easy"/>
         <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
@@ -2972,7 +2891,6 @@
     <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Thoracic_Foam_Roll -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Thoracic_Foam_Roll">
-        <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Exercise"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Massage"/>
         <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Hard"/>
         <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
@@ -2995,7 +2913,6 @@
     <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Thoracic_Swimmers -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Thoracic_Swimmers">
-        <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Exercise"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Mobility"/>
         <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Easy"/>
         <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
@@ -3016,7 +2933,6 @@
     <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Thoracic_Wall_Sweep -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Thoracic_Wall_Sweep">
-        <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Exercise"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Mobility"/>
         <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Intermediate"/>
         <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
@@ -3047,7 +2963,6 @@
     <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Unilateral_Landmine_Row -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Unilateral_Landmine_Row">
-        <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Exercise"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Strengthening"/>
         <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Intermediate"/>
         <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
@@ -3072,7 +2987,6 @@
     <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Upper_Trapezius_Active_Massage -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Upper_Trapezius_Active_Massage">
-        <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Exercise"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Massage"/>
         <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Intermediate"/>
         <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
@@ -3094,7 +3008,6 @@
     <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Wall_Angel -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Wall_Angel">
-        <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Exercise"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Stability"/>
         <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Easy"/>
         <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
@@ -3116,7 +3029,6 @@
     <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Wall_Lumbar_Extension -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Wall_Lumbar_Extension">
-        <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Exercise"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Stretches"/>
         <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Easy"/>
         <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
@@ -3142,7 +3054,6 @@
     <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Wall_Thoracic_Extension -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Wall_Thoracic_Extension">
-        <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Exercise"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Stretches"/>
         <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Easy"/>
         <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
@@ -3164,7 +3075,6 @@
     <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Wall_Tibial_External_Rotation_Rail -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Wall_Tibial_External_Rotation_Rail">
-        <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Exercise"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Mobility"/>
         <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Hard"/>
         <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
@@ -3184,7 +3094,6 @@
     <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Windshield_Wiper -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Windshield_Wiper">
-        <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Exercise"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Mobility"/>
         <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Intermediate"/>
         <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
@@ -3222,7 +3131,6 @@
     <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#3_Month_Prone -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#3_Month_Prone">
-        <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Exercise"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Stability"/>
         <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Easy"/>
         <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
@@ -3247,7 +3155,6 @@
     <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#3_Month_Prone_Neck_Flexion_and_Extension -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#3_Month_Prone_Neck_Flexion_and_Extension">
-        <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Exercise"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Stability"/>
         <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Easy"/>
         <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
@@ -3271,7 +3178,6 @@
     <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#3_Month_Prone_Neck_Rotation -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#3_Month_Prone_Neck_Rotation">
-        <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Exercise"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Stability"/>
         <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Easy"/>
         <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
@@ -3293,7 +3199,6 @@
     <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#9090_External_Rotation_Rail -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#9090_External_Rotation_Rail">
-        <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Exercise"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Mobility"/>
         <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Easy"/>
         <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
@@ -3314,7 +3219,6 @@
     <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Banded_World’s_Greatest_Stretch -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Banded_World’s_Greatest_Stretch">
-        <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Exercise"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Mobility"/>
         <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Intermediate"/>
         <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
@@ -3339,7 +3243,6 @@
     <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Dowel_World’s_Greatest_Stretch -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Dowel_World’s_Greatest_Stretch">
-        <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Exercise"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Stretches"/>
         <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Intermediate"/>
         <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>
@@ -3363,7 +3266,6 @@
     <!-- http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Modified_World’s_Greatest_Stretch -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Modified_World’s_Greatest_Stretch">
-        <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Exercise"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Mobility"/>
         <rehab:hasDifficulty rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Easy"/>
         <rehab:isSuitedFor rdf:resource="http://www.semanticweb.org/dprueser/ontologies/2025/4/rehab-exercises#Adult"/>

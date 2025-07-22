@@ -68,7 +68,7 @@
     </div>
 
     <div>
-        <p id="difficulty"><!-- Difficulty of the selected person will be added dynamically here --></p>
+        <p id="div"><!-- Difficulty of the selected person will be added dynamically here --></p>
     </div>
 
 <script>
@@ -91,18 +91,15 @@ function handleQueryResults(data) {
 
     const ds = dropdown.dataset;
     ds[key + '_label']         = label;
-    ds[key + '_exerciseType']    = row.exerciseType?.value       || '—';
-    ds[key + '_difficulty']    = row.difficulty?.value       || '—';
-    ds[key + '_muscleGroups']  = row.muscleGroups?.value     || '—';
-    ds[key + '_symptoms']      = row.symptoms?.value         || '—';
-    ds[key + '_ageGroups']     = row.ageGroups?.value        || '—';
+    ds[key + '_diseaseType']    = row.diseaseType?.value       || '—';
+    ds[key + '_symptoms']  = row.symptoms?.value     || '—';
   });
 }
 
 function displayExerciseInfo() {
   const dropdown = document.getElementById('dropdown');
   const sel = dropdown.value;
-  const info = document.getElementById('difficulty');
+  const info = document.getElementById('div');
 
   if (sel === 'default') {
     info.textContent = '';
@@ -112,24 +109,18 @@ function displayExerciseInfo() {
   const d = dropdown.dataset;
   const prefix = sel + '_';
   const label    = d[prefix + 'label'];
-  const type = d[prefix + 'exerciseType'];
-  const diff     = d[prefix + 'difficulty'];
-  const muscle   = d[prefix + 'muscleGroups'];
-  const symp     = d[prefix + 'symptoms'];
-  const age      = d[prefix + 'ageGroups'];
+  const type     = d[prefix + 'diseaseType'];
+  const symptoms   = d[prefix + 'symptoms'];
 
   info.innerHTML =
     `<strong>${label}</strong><br>` +
     `<br>` +
     `<strong>Details:</strong><br>` +
     `Type: ${type}<br>` +
-    `Difficulty: ${diff}<br>` +
-    `Targets: ${muscle}<br>` +
-    `Relieves: ${symp}<br>` +
-    `Suited for: ${age}`;
+    `Symptoms: ${symptoms}<br>`;
 }
   // === FETCH from TriplyDB run-URL ===
-  const apiUrl = 'https://api.triplydb.com/queries/DavidPruser/All-Exercises/6/run';
+  const apiUrl = 'https://api.triplydb.com/queries/DavidPruser/All-Diseases/1/run';
   fetch(apiUrl, { headers: { 'Accept': 'application/sparql-results+json' } })
     .then(r => r.ok ? r.json() : Promise.reject(r.statusText))
     .then(handleQueryResults)

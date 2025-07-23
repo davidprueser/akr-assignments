@@ -63,7 +63,7 @@ class RehabOntologyCrawler:
         """
         Orchestrate the full workflow:
         1) Load the ontology,
-        2) For each URL: scrape and add categories,
+        2) For each URL: scrape and add categories, add exercises, 
         3) Add 'Strengthening' workaround,
         4) Restore property definitions,
         5) Save the updated graph.
@@ -162,7 +162,7 @@ class RehabOntologyCrawler:
 
     ##### Scraping Exercise Methods #####
 
-    # Changed: New method to extract exercise links and titles from a category page
+    # Mew method to extract exercise links and titles from a category page
     def extract_exercise_links(self) -> list[tuple[str, str]]:
         """
         Finds all exercise links on a category page.
@@ -179,7 +179,7 @@ class RehabOntologyCrawler:
                 links.append((full_url, name))
         return links
 
-    # Changed: New method to add exercise individuals to the ontology
+    # Method to add exercise individuals to the ontology
     def add_exercises(self, exercises: list[tuple[str, str]], category_class: URIRef):
         """
         Adds exercise individuals under the given category class.

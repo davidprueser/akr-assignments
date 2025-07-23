@@ -81,11 +81,11 @@ class RehabOntologyCrawler:
             texts = self.extract_texts()
             self.add_categories(texts, self.exercise_class)
 
-        # Step 2.5: Add categories from specific URLs
+        # Step 2.5: Add categories from specific URLs, add exercises
         for category_url in category_urls:
             print(f"Scraping exercises in {category_url}...")
             self.fetch_page(category_url)
-            self.base_url = category_url  # Changed: store base for relative links
+            self.base_url = category_url  # store base for relative links
             exercises = self.extract_exercise_links()
             # Determine category class from URL or previous category mapping
             seg = category_url.rsplit("/", 1)[-1]  # z.B. "Thoracic+Flexibility"

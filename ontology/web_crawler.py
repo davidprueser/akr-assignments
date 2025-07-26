@@ -63,7 +63,7 @@ class RehabOntologyCrawler:
         """
         Orchestrate the full workflow:
         1) Load the ontology,
-        2) For each URL: scrape and add categories, add exercises, 
+        2) For each URL: scrape and add categories, add exercises,
         3) Add 'Strengthening' workaround,
         4) Restore property definitions,
         5) Save the updated graph.
@@ -91,7 +91,7 @@ class RehabOntologyCrawler:
             seg = category_url.rsplit("/", 1)[-1]  # z.B. "Thoracic+Flexibility"
             kind = seg.split("+")[-1]  # z.B. "Flexibility"
 
-            # Map kind to class name 
+            # Map kind to class name
             if kind == "Flexibility":
                 cls_name = "Stretches"
             else:
@@ -153,6 +153,7 @@ class RehabOntologyCrawler:
 
         if self._soup is None:
             raise RuntimeError("Page not fetched. Call fetch_page() first.")
+        # select the span elements which contain our class names
         spans = self._soup.select(
             "span.sqsrte-text-color--accent, span.sqsrte-text-color--black"
         )
@@ -162,7 +163,7 @@ class RehabOntologyCrawler:
 
     ##### Scraping Exercise Methods #####
 
-    # Mew method to extract exercise links and titles from a category page
+    # Method to extract exercise links and titles from a category page
     def extract_exercise_links(self) -> list[tuple[str, str]]:
         """
         Finds all exercise links on a category page.
@@ -171,6 +172,8 @@ class RehabOntologyCrawler:
         if self._soup is None:
             raise RuntimeError("Page not fetched. Call fetch_page() first.")
         links = []
+        # for each link in the anchor tags with data-no-animation attribute
+        # we extract the href and the text
         for a in self._soup.select("a[data-no-animation]"):
             href = a.get("href")
             name = a.get_text(strip=True)
